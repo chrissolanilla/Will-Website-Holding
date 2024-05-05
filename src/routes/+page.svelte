@@ -5,6 +5,7 @@
     import CoreValues from "$lib/components/CoreValues.svelte"
     import TargetMarkets from "$lib/components/TargetMarkets.svelte"
     import Team from "$lib/components/Team.svelte"
+    import Contact from "$lib/components/Contact.svelte"
 </script>
 
 <Navbar />
@@ -17,4 +18,5 @@
 <CoreValues />
 <TargetMarkets />
 <Team />
+<Contact />
 
