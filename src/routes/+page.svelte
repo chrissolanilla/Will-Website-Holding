@@ -3,6 +3,8 @@
     import About from "$lib/components/About.svelte"
     import Approach from "$lib/components/Approach.svelte"
     import CoreValues from "$lib/components/CoreValues.svelte"
+    import TargetMarkets from "$lib/components/TargetMarkets.svelte"
+    import Team from "$lib/components/Team.svelte"
 </script>
 
 <Navbar />
@@ -13,4 +15,6 @@
 <About />
 <Approach />
 <CoreValues />
+<TargetMarkets />
+<Team />
 

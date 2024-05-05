@@ -9,6 +9,6 @@
     at scelerisque nisl tincidunt.
 </p>
 
-<div class=AboutImage>
+<div class="AboutImage">
     <img src="its_over.png" alt="It's over. We're back. It's so over. We're so back">
 </div>
