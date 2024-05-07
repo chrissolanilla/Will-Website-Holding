@@ -10,5 +10,11 @@
 </p>
 
 <div class="AboutImage">
-    <img src="its_over.png" alt="It's over. We're back. It's so over. We're so back">
+    <img src="Poolside.jpg" alt="It's over. We're back. It's so over. We're so back">
 </div>
+
+<style>
+    .AboutImage img{
+        height: 500px;
+    }
+</style>
