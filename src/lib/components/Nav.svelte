@@ -21,7 +21,7 @@
 <style>
     nav {
     background-color: #0b162e; /* Dark background */
-    padding-bottom: 2em;
+    padding: 2em;
     width: 100%;
     margin-left: 0;
     z-index: 1000; /* Ensure it's above other content */
