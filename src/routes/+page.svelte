@@ -29,6 +29,11 @@
 <div id="Contact"><Contact /></div>
 
 <style>
+
+    div {
+        overflow-x: hidden;
+       
+    }
     .StartContainer {
         color: white;
         width: 100%;
@@ -48,5 +53,6 @@
         align-items: center;
         
     }
+    
 
 </style>

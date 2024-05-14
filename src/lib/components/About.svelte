@@ -13,13 +13,14 @@
         
     </div>
     
-    <div class="AboutImage">
-        <img src="Poolside.jpg" alt="It's over. We're back. It's so over. We're so back">
-    </div>
-
-    <div class="StarImage">
-        <img src="starLight.jpg" alt="Second pic on website">
+    <div class="ImagesContainer">
+        <div class="AboutImage">
+            <img src="Poolside.jpg" alt="It's over. We're back. It's so over. We're so back">
+        </div>
     
+        <div class="StarImage">
+            <img src="starLight.jpg" alt="Second pic on website">
+        </div>
     </div>
 
 </div>
@@ -31,7 +32,15 @@
         flex-direction: row;
         justify-content: center;
         align-items: center;
-        column-gap: 300px;
+        column-gap: 5rem;
+        width: 100%;
+        height: 400px;
+    }
+    .ImagesContainer {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        column-gap: 0.11rem;
         width: 100%;
         height: 400px;
     }
