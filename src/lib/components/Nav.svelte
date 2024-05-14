@@ -14,8 +14,10 @@
 <div class="navContainer">
     <div class="icons">
         <a href="https://LinkedIn.com">
-            <i class="fa fa-instagram" aria-hidden="true"></i>
             <i class="fa fa-linkedin" aria-hidden="true"></i>
+        </a>
+        <a href="https://instagram.com"> 
+            <i class="fa fa-instagram" aria-hidden="true"></i>
         </a>
     </div>
 
@@ -84,4 +86,15 @@
     a:hover {
         color: #1e90ff; /* Change color on hover */
     }
+
+    @font-face {
+    font-family: 'FontAwesome';
+    src: url('fontawesome-webfont.woff2') format('woff2'),
+         url('fontawesome-webfont.woff') format('woff'),
+         url('fontawesome-webfont.ttf') format('truetype'),
+         url('fontawesome-webfont.svg#fontawesomeregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
 </style>
