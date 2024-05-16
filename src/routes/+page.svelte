@@ -29,7 +29,10 @@
 <div id="Contact"><Contact /></div>
 
 <style>
-
+     :global(body) {
+        margin: 0;
+        padding: 0;
+     }
     div {
         overflow-x: hidden;
        
