@@ -39,6 +39,7 @@
         justify-content: center;
         flex-direction: row;
         column-gap: 65rem;
+        flex-wrap: wrap;
     }
 
     .icons {    
@@ -46,8 +47,6 @@
         flex-direction: row;
         justify-content: center;
         align-items: center;
-        
-        
     }
 
     i {
@@ -56,7 +55,6 @@
 
     nav {
     padding: 2em;
-    padding-left: 5rem;
     display: flex;
     align-items: center;
     justify-content: center;

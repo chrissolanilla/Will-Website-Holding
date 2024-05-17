@@ -1,13 +1,10 @@
-<div class = "bgImg">
-    <img src = "starBG.jpg" alt = "background"/>
-</div>
-
 <div class="ApproachContainer">
     
     <div class="ApproachTitle"> 
         <h2> Approach </h2>
         <h1> Dealing with Pride</h1>
     </div>
+
     <div class="ApproachText">
         <div class="ApproachBody"> 
             <p> Constellation mainly focuses on Value-Add and Core-Plus strategies. 
@@ -39,8 +36,8 @@
 <style>
     .ApproachContainer{
         color: white;
-        width: 100%;
-        height: 400px;
+        width: 100rem;
+        height: auto;
         display: flex;
         flex-direction: row;
         justify-content: center;
@@ -48,20 +45,11 @@
         gap: 100px;
 
     }
-    .bgImg img{
-        width: 100%;
-        height: 400px;
-        position: absolute;
-        z-index: -1;
-    }
+
     .ApproachTitle{
-        width: auto;
-        margin: 0 auto;
-        
-        padding-top: 0px;
-        padding-left: 50px;
-        display: block;
-        position: left;
+        padding: 0;
+        padding-top: 10rem;
+        padding-bottom: 10rem;
     }
     .ApproachTitle h1{
         color:rgb(135, 184,188);

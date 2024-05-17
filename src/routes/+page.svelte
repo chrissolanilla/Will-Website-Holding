@@ -20,13 +20,33 @@
     </div>
 </div>
 
+<div class="wrapper">
+    <div id="About"><About /></div>
+</div>
 
-<div id="About"><About /></div>
-<div id="Approach"><Approach /></div>
-<div id="Values"><CoreValues /></div>
-<div id="Target"><TargetMarkets /></div>
-<div id="Team"><Team /></div>
-<div id="Contact"><Contact /></div>
+<div class = "bgImg2">
+    <img src = "starBG.jpg" alt = "background"/>
+    <div class="wrapper">
+        <div id="Approach"><Approach /></div>
+    </div>
+</div>
+    
+<div class="wrapper">
+    <div id="Values"><CoreValues /></div>
+</div>
+<div class="wrapper">
+    <div id="Target"><TargetMarkets /></div>
+
+</div>
+<div class="wrapper">
+    <div id="Team"><Team /></div>
+
+</div>
+<div class="wrapper">
+    <div id="Contact"><Contact /></div>
+
+</div>
+
 
 <style>
      :global(body) {
@@ -56,6 +76,20 @@
         align-items: center;
         
     }
-    
+    .wrapper {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        width: 100%;
+    }   
+    #Approach {
+        width: 100rem;
+    }
+    .bgImg2 img{
+        width: 100%;
+        height: 45rem;
+        position: absolute;
+        z-index: -1;
+    }
 
 </style>
