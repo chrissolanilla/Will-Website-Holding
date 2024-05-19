@@ -101,4 +101,21 @@
         display: block;
         position: relative;
     }
+
+    @media (max-width: 900px) {
+        .ApproachContainer {
+            width: 20rem;
+            flex-direction: column;
+        }
+        .ApproachTitle {
+            padding: 0;
+            text-align: center;
+        }
+        .ApproachBody {
+            flex-direction: column;
+        }
+        .ApproachSub {
+            flex-direction: column;
+        }
+    }
 </style>

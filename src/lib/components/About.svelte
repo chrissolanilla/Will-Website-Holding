@@ -32,6 +32,7 @@
         justify-content: center;
         align-items: center;
         width: 100rem;
+        padding: 5rem;
         flex-wrap: calc(100vw/3);
     }
     .ImagesContainer {
@@ -42,16 +43,29 @@
         width: 100%;
         height: 400px;
     }
-    .AboutImage img{
+    img {
         height: 300px;
-        
-    }
-    .StarImage img{
-        height:300px;
     }
 
     .AboutText {
         color: black;
         font-size: 20px;
+    }
+
+    @media (max-width: 900px){
+        .AboutContainer {
+            width: 15rem;
+            flex-direction: column;
+            padding: 2px;
+        }
+        .ImagesContainer{
+            flex-direction: column;
+            padding: 2px;
+            align-items: center;
+        }
+        img {
+            height: 200px;
+        }
+       
     }
 </style>

@@ -54,11 +54,11 @@
     }
 
     nav {
-    padding: 2em;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    z-index: 1000; /* Ensure it's above other content */
+        padding: 2em;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        z-index: 1000; /* Ensure it's above other content */
     
     }
 
@@ -85,14 +85,11 @@
         color: #1e90ff; /* Change color on hover */
     }
 
-    @font-face {
-    font-family: 'FontAwesome';
-    src: url('fontawesome-webfont.woff2') format('woff2'),
-         url('fontawesome-webfont.woff') format('woff'),
-         url('fontawesome-webfont.ttf') format('truetype'),
-         url('fontawesome-webfont.svg#fontawesomeregular') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
+    @media (max-width: 900px) {
+        .navContainer {
+            width: 21rem;
+        }
+    }
+
 
 </style>

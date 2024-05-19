@@ -19,26 +19,37 @@
 <style>
     .ValuesContainer{
         background-color:rgb(135, 184, 188);
-        width: 100%;
-        height: 500px;
+        width: 100rem;
         display: flex;
         flex-direction: row-reverse;
         justify-content: center;
         align-items: center;
-        gap: 100px;
+        gap: 20px;
+        flex-wrap: calc(100vw/3);
+        box-sizing: border-box;
+        padding: 120px 0px 100px 0px;
     }
     
-    .CoreValuesImg{
-
+    .CoreValuesImg, .ValuesText {
+        flex: 1; /* Makes both divs take equal space */
     }
 
-    .ValuesText{
-        color:white;
-        width: auto;
-        margin: 0 auto;
+    .ValuesText {
+        color: white;
         font-size: 20px;
-        padding-left: 50px;
-        display: block;
-        position: relative;
+        padding-left: 20px; /* Adjusted padding */
+    }
+    @media (max-width: 900px) {
+        .ValuesContainer {
+            flex-direction: column; /* Stacks the items vertically on smaller screens */
+            padding: 1rem; /* Further reduce padding */
+            width: 20rem;
+        }
+        .ValuesText {
+            padding-left: 0; /* Remove left padding on small screens */
+        }
+        img {
+            height: 250px;
+        }
     }
 </style>

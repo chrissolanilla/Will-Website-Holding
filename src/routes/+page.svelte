@@ -31,7 +31,7 @@
     </div>
 </div>
     
-<div class="wrapper">
+<div class="wrapper core">
     <div id="Values"><CoreValues /></div>
 </div>
 <div class="wrapper">
@@ -81,6 +81,7 @@
         flex-direction: row;
         justify-content: center;
         width: 100%;
+        padding: 0 20px;
     }   
     #Approach {
         width: 100rem;
@@ -91,5 +92,14 @@
         position: absolute;
         z-index: -1;
     }
+    .core {
+        background-color: rgb(135, 184, 188);
+    }
 
+    @media (max-width: 900px) {
+        .bgImg2 img {
+            width: 100%;
+            height: 1650px
+        }
+    }
 </style>
