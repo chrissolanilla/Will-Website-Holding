@@ -52,7 +52,6 @@
      :global(body) {
         margin: 0;
         padding: 0;
-        overflow-x:hidden;
      }
     div {
         overflow-x: hidden;
@@ -95,6 +94,7 @@
     }
     .core {
         background-color: rgb(135, 184, 188);
+        width: auto;
     }
 
     @media (max-width: 900px) {
