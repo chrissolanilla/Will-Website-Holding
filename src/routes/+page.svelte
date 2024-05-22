@@ -1,7 +1,7 @@
 <script>
     import Navbar from "$lib/components/Nav.svelte"
     import About from "$lib/components/About.svelte"
-    import Approach from "$lib/components/Approach.svelte"
+    import Mission from "$lib/components/MissionStatement.svelte"
     import CoreValues from "$lib/components/CoreValues.svelte"
     import TargetMarkets from "$lib/components/TargetMarkets.svelte"
     import Team from "$lib/components/Team.svelte"
@@ -19,25 +19,27 @@
         <p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
     </div>
 </div>
+<div class = "bgImg2">
+    <img src = "starBG.jpg" alt = "background"/>
+    <div class="wrapper">
+        <div id="Mission"><Mission /></div>
+    </div>
+</div>
 
 <div class="wrapper">
     <div id="About"><About /></div>
 </div>
 
-<div class = "bgImg2">
-    <img src = "starBG.jpg" alt = "background"/>
-    <div class="wrapper">
-        <div id="Approach"><Approach /></div>
-    </div>
-</div>
     
 <div class="wrapper core">
     <div id="Values"><CoreValues /></div>
 </div>
-<div class="wrapper">
-    <div id="Target"><TargetMarkets /></div>
-
-</div>
+<!--
+    <div class="wrapper">
+        <div id="Target"><TargetMarkets /></div>
+    
+    </div>
+-->
 <div class="wrapper">
     <div id="Team"><Team /></div>
 
@@ -83,7 +85,7 @@
         width: 100%;
         padding: 0 20px;
     }   
-    #Approach {
+    #Mission {
         width: 100rem;
     }
     .bgImg2 img{
