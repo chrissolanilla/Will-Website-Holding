@@ -93,6 +93,7 @@
 		text-shadow:  1px 1px 2px rgb(0, 0, 0),
 		0 0 1em rgb(0, 0, 0),
 		0 0 0.2em rgb(30, 49, 53);
+		z-index: 1000;
 	}
 
 	a:hover {

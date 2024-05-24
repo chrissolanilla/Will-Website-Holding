@@ -67,6 +67,7 @@
 		<h1>Legacy 5</h1>
 	</div>
 </div>
+
 <div class="bgImg2">
 	<img src="starBG.jpg" alt="background" />
 	<div class="wrapper">
@@ -101,6 +102,7 @@
 	:global(body) {
 		margin: 0;
 		padding: 0;
+		overflow-x: hidden;
 	}
 
 	ul {
@@ -181,7 +183,7 @@
 
 	.StartContainer {
 		color: white;
-		width: 100%;
+		width: 100vw;
 		height: 100vh;
 		position: relative;
 		overflow: hidden;
@@ -205,6 +207,7 @@
 		text-shadow:  1px 1px 2px rgb(46, 1, 1),
 		0 0 1em rgb(228, 220, 220),
 		0 0 0.2em rgb(211, 218, 125);
+		text-align: center; /*fixes mobile view */
 	}
 
 	.wrapper {
@@ -232,9 +235,33 @@
 	}
 
 	@media (max-width: 900px) {
+		:global(html){
+			overflow-x: hidden;
+		}
+		:global(body){
+			max-width: 100%;
+			overflow-x: hidden;
+		}
+		ul {
+			overflow-x: hidden;
+		}
+		section{
+			overflow-x: hidden;
+		}
 		.bgImg2 img {
 			width: 100%;
 			height: 1650px;
+		}
+		.contentMain h1 {
+			font-size: 50px;
+		}
+
+		.carousel-button.prev {
+		left: 0.1rem;
+		}
+
+		.carousel-button.next {
+			right: 0.1rem;
 		}
 	}
 </style>
