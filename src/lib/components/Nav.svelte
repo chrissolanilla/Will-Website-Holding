@@ -13,13 +13,25 @@
 
 <div class="navContainer">
     <div class="icons">
-        <a href="https://LinkedIn.com">
+        <a href="https://www.linkedin.com/company/burkeconstructiongroup">
             <i class="fa fa-linkedin" aria-hidden="true"></i>
         </a>
-        <a href="https://instagram.com"> 
+        <a href="https://www.linkedin.com/company/burkeconstructiongroup"> 
             <i class="fa fa-instagram" aria-hidden="true"></i>
         </a>
+        <a href="https://www.facebook.com/BurkeConstructionGroupInc/">
+            <i class="fa fa-facebook" aria-hidden="true"></i>
+        </a>
+        <a href="https://www.youtube.com/channel/UCvopoFV385wOPjFQPDb6k5A">
+            <i class="fa fa-youtube" aria-hidden="true"></i>
+        </a>
     </div>
+
+    <div class="Logo">
+        <h3>Legacy 5</h3>
+    </div>
+
+
 
     <nav>
         <ul>

@@ -14,9 +14,7 @@
     </div>
     <Navbar />
     <div class="contentMain">
-
-        <h1>Welcome to Bill Website</h1>
-        <p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+        <h1>Legacy 5</h1>
     </div>
 </div>
 <div class = "bgImg2">
@@ -77,6 +75,9 @@
         justify-content: center;
         align-items: center;
         
+    }
+    .contentMain h1{
+        font-size: 60px;
     }
     .wrapper {
         display: flex;
