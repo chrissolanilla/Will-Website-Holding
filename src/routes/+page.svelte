@@ -8,6 +8,12 @@
 	import Contact from "$lib/components/Contact.svelte";
 	import { onMount } from "svelte";
 
+	function scrollToContent() {
+		const contentElement = document.getElementById("Mission");
+		if (contentElement) {
+			contentElement.scrollIntoView({behavior:"smooth",block:"start"})
+		}
+	}
 	// code for the carousel
 	//because its svelte we need the life cycle onMount thing
 	onMount(() => {
@@ -65,7 +71,14 @@
 	<Navbar />
 	<div class="contentMain">
 		<h1>Legacy 5</h1>
+		<button id="downArrowButton" on:click={scrollToContent} style="pointer-events: all; background: transparent; border: none;">
+			<svg width="192" height="96" version="1.1" viewBox="-2 -2 196 100" xmlns="http://www.w3.org/2000/svg">
+				<path d="m12 12 84 72 84-72" fill="none" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="24" style="paint-order:stroke fill markers"></path>
+				<path d="m12 12 84 72 84-72" fill="none" stroke="grey" stroke-linecap="round" stroke-linejoin="round" stroke-width="15" style="paint-order:stroke fill markers"></path>
+			</svg>
+		</button>
 	</div>
+	<!--trying to add a button down arrow-->
 </div>
 
 <div class="bgImg2">
@@ -192,6 +205,7 @@
 	.contentMain {
 		display: flex;
 		flex-direction: column;
+		row-gap: 15rem;
 		justify-content: center;
 		align-items: center;
 		position: relative;
