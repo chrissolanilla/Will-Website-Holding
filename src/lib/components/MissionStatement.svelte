@@ -13,7 +13,7 @@
         <h1>Investing with Integrity</h1>
         <p>At Legacy 5, we focus on Value-Add and Core-Plus strategies to yield appropriate risk-adjusted returns.</p>
         <p>Our goal is to enhance the value of Miami apartments through strategic investments and strong partnerships.</p>
-        <button class="learn-more-button" on:click={scrollToContent("test")}>Learn More</button>
+        <button class="learn-more-button">Learn More</button>
     </div>
     <div class="mission-details">
         <div class="detail">
@@ -33,7 +33,7 @@
     position: relative;
     color: white;
     text-align: center;
-    padding: 4rem;
+    padding: 6rem;
 }
 
 .overlay {
