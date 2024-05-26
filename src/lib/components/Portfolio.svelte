@@ -1,74 +1,144 @@
 <script>
 	import { onMount } from 'svelte';
-	import 'tiny-slider/dist/tiny-slider.css';
+	import emblaCarouselSvelte from 'embla-carousel-svelte'
+	import Autoplay from 'embla-carousel-autoplay'
 
+	let options = { loop: false }  
+	let plugins = [Autoplay()]
 	let items = [
 		"https://bcginc.wpenginepowered.com/wp-content/uploads/2023/02/DJI_0353-HDR-scaled-600x400.jpg",
 		"https://bcginc.wpenginepowered.com/wp-content/uploads/2023/02/DJI_0437-scaled-600x400.jpg",
-		"https://bcginc.wpenginepowered.com/wp-content/uploads/2015/08/Solar-Stock-Pic-for-Webpage-600x400.jpeg"
+		"https://bcginc.wpenginepowered.com/wp-content/uploads/2015/08/Solar-Stock-Pic-for-Webpage-600x400.jpeg",
+		"https://bcginc.wpenginepowered.com/wp-content/uploads/2015/07/The_Palace_1.jpg",
+		"https://bcginc.wpenginepowered.com/wp-content/uploads/2015/07/KWCH_1.png",
+		"https://bcginc.wpenginepowered.com/wp-content/uploads/2020/03/Woodland_Lodge_Pet_Resort_Front_Low_Light-REDUCED-SIZWE-scaled-800x415.jpg"
 	];
-
-	onMount(async () => {
-		const { tns } = await import('tiny-slider/src/tiny-slider');
-
-		tns({
-			container: '.my-slider',
-			items: 1,
-			slideBy: 'page',
-			autoplay: true,
-			controls: true,
-			nav: true
-		});
-	});
 </script>
 
+<h1>Look at our projects!</h1>
 <div class="portfolioContainer">
-	<h1>Look at our projects!</h1>
+	
 	<div class="my-slider">
-		{#each items as item}
-			<div>
-				<img src={item} alt="Real-Estate">
-			</div>
-		{/each}
+		<div class="embla" use:emblaCarouselSvelte="{{ options, plugins }}">
+			<div class="embla__container">
+					<div class="embla__slide">
+						<div class="propertyContainer">
+							<a href="https://bcginc.net/cheeca-lodge-spa/">
+								<img src={items[0]} alt="property" />
+								<p class="description">Cheeca Lodge & Spa</p>
+
+							</a>
+						</div>
+						<div class="propertyContainer">
+							<a href="https://bcginc.net/ocean-isles-fishing-village/">
+								<img src={items[1]} alt="property"/>
+								<p class="description">Ocean Isles Fishing Vilalge</p>
+
+							</a>
+						</div>
+						<div class="propertyContainer">
+							<a href="https://bcginc.net/bahamassolarproject/">
+								<img src={items[2]} alt="property"/>
+								<p class="description">Bahamas Solar Project</p>
+
+							</a>
+						</div>	
+					</div>
+					<div class="embla__slide">
+						<div class="propertyContainer">
+							<a href="https://bcginc.net/thepalaceatweston/">
+								<img src={items[3]} alt="property"/>
+								<p class="description">The Palace at Weston</p>
+
+							</a>
+						</div>
+						<div class="propertyContainer">
+							<a href="https://bcginc.net/keywestcityhall/">
+								<img src={items[4]} alt="property"/>
+								<p class="description">Key West City Hall</p>
+
+							</a>
+						</div>
+						<div class="propertyContainer">
+							<a href="https://bcginc.net/woodlandpetlodge/">
+								<img src={items[5]} alt="property"/>
+								<p class="description">Woodland Pet Lodge</p>
+
+							</a>
+						</div>
+					</div>
+				</div>
+		</div>
+		
 	</div>
+	
 </div>
 
 <style>
-	.portfolioContainer {
-		width: 100%;
-		padding: 20px;
-	}
 
-	.my-slider {
-		width: 100%;
-		height: 400px;
-	}
-
-	.my-slider img {
-		width: 100%;
-		height: auto;
-		object-fit: cover;
-	}
-
-	.tns-controls {
-		display: flex;
-		justify-content: space-between;
-		position: absolute;
-		top: 50%;
-		width: 100%;
-		transform: translateY(-50%);
-	}
-
-	.tns-controls button {
-		background-color: #007bff;
+	h1{
 		color: white;
-		border: none;
-		padding: 10px;
-		cursor: pointer;
-		margin: 5px;
+	}
+	.propertyContainer {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		text-align: center;
+	}
+	.description {
+		margin-left: 1.2rem;
+	}
+	.embla {
+		overflow: hidden;
+	}
+	.embla__container {
+		display: flex;
+		padding:  2rem 0 1rem 0;
+	}
+	.embla__slide {
+		flex: 0 0 100%;
+		min-width: 0;
+		display: flex;
+		justify-content: center;
+		column-gap: 3rem;
+	}
+	h1 {
+		text-align: center;
+	}
+	.portfolioContainer {
+		display: flex;
+		padding: 1rem;
+		width: 100rem;
+		justify-content: center;
+	}
+	.my-slider {
+		display: flex;
+		column-gap: 1rem;
+		background-color: rgb(61, 180, 228);
+		
+		padding: 1rem;
+		width: 100rem;
+		overflow: hidden;
+		position: relative;
+		color: white;
 	}
 
-	.tns-controls button:disabled {
-		background-color: #cccccc;
+	img {
+		width: 400px;
+		height: 333px;
+		margin: 0 1rem;
+		border-radius: 0.5rem;
+	}
+	.carousel-button {
+		background-color: #007BFF;
+		border: none;
+		color: white;
+		padding: 10px 20px;
+		text-align: center;
+		text-decoration: none;
+		display: inline-block;
+		font-size: 16px;
+		margin: 4px 2px;
+		cursor: pointer;
 	}
 </style>

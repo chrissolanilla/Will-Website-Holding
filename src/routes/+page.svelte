@@ -86,7 +86,7 @@
 	<div id="Mission"><Mission /></div>
 </div>
 
-<div class="wrapper">
+<div class="wrapper portfolioBG">
 	<div id="Portfolio"> <Portfolio /> </div>
 </div>
 
@@ -128,6 +128,9 @@
 		margin: 0;
 	}
 
+	.portfolioBG {
+		background: linear-gradient(to top, #204575 0%, #537895 100%);
+	}
 	.carousel-section {
 		position: absolute;
 		top: 0;
@@ -236,22 +239,24 @@
 		padding: 0 20px;
 	}
 
-    .about{
-        background: linear-gradient(to top, #102f58 0%, #5785a9 100%);
-    }
-    
-    .team{
-        background: linear-gradient(to top, #102f58 0%, #5785a9 100%);
-    }
-    .contact{
-        background:rgb(51, 51, 51);
-    }
+	.about{
+		background: linear-gradient(to top, #dadde0 0%, #5785a9 100%);
+		color: black;
+	}
+	
+	.team{
+		background: linear-gradient(to top, #102f58 0%, #5785a9 100%);
+	}
+	.contact{
+		background: linear-gradient(to bottom, #333333 0%, #414242 100%);
+		color: white;
+	}
 
 	#Mission {
 		width: 100rem;
 	}
 	.core {
-		background: linear-gradient(to bottom, #102f58 0%, #5785a9 100%);
+		background: linear-gradient(to bottom, #8c8f94 0%, #262727 100%);
 		width: auto;
 	}
 

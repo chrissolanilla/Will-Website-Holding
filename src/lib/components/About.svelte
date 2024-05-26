@@ -50,6 +50,7 @@
 
     .AboutText {
         font-size: 20px;
+        color: black;
     }
 
     @media (max-width: 900px){
