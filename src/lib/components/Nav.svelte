@@ -27,10 +27,6 @@
 		</a>
 	</div>
 
-	<div class="Logo">
-		<h3>Legacy 5</h3>
-	</div>
-
 	<nav>
 		<ul>
 			<li><a href="#mission" on:click|preventDefault={() => scrollToContent("Mission")}>Mission</a></li>

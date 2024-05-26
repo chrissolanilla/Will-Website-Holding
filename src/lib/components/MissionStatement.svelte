@@ -8,39 +8,42 @@
 	}
 </script>
 <div class="mission-container">
-    <div class="overlay">
-    <div class="mission-content">
-        <h1>Investing with Integrity</h1>
-        <p>At Legacy 5, we focus on Value-Add and Core-Plus strategies to yield appropriate risk-adjusted returns.</p>
-        <p>Our goal is to enhance the value of Miami apartments through strategic investments and strong partnerships.</p>
-        <button class="learn-more-button">Learn More</button>
-    </div>
-    <div class="mission-details">
-        <div class="detail">
-            <h3><i class="fas fa-building"></i> High-Quality Properties</h3>
-            <p>We identify properties with growth potential in desirable locations, ensuring sustainable value creation.</p>
+    <img src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" width="550px" alt="Guys Looking at computers">
+    <div class="missionContentContainer">
+        <div class="mission-content"> 
+            <h1>Investing with Integrity</h1>
+            <p>At Legacy 5, we focus on Value-Add and Core-Plus strategies to yield appropriate risk-adjusted returns.</p>
+            <p>Our goal is to enhance the value of Miami apartments through strategic investments and strong partnerships.</p>
+            <button class="learn-more-button">Learn More</button>
         </div>
-        <div class="detail">
-            <h3><i class="fas fa-chart-line"></i> Return and Yield Driven</h3>
-            <p>Our investments target both return-driven and yield-driven opportunities in multifamily, retail, and office sectors.</p>
+        <div class="mission-details">
+            <div class="detail">
+                <h3><i class="fas fa-building"></i> High-Quality Properties</h3>
+                <p>We identify properties with growth potential in desirable locations, ensuring sustainable value creation.</p>
+            </div>
+            <div class="detail">
+                <h3><i class="fas fa-chart-line"></i> Return and Yield Driven</h3>
+                <p>Our investments target both return-driven and yield-driven opportunities in multifamily, retail, and office sectors.</p>
+            </div>
         </div>
+
     </div>
-</div>
 </div>
 
 <style>
+    img {
+        border-radius: 0.5rem;
+    }
+.missionContentContainer{
+    padding: 1rem;
+}
 .mission-container {
+    display: flex;
+    flex-direction: row;
     position: relative;
-    color: white;
+    color: black;
     text-align: center;
     padding: 6rem;
-}
-
-.overlay {
-    background: rgba(0, 0, 0, 0.5); /* Semi-transparent overlay */
-    z-index: 1;
-    border-radius: 15px;
-    padding: 4rem;
 }
 
 .mission-content {
@@ -52,20 +55,20 @@
 .mission-content h1 {
     font-size: 3rem;
     color: #84b0d4;
-    text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
+    text-shadow: 1px 1px 2px rgb(0, 0, 0), 0 0 1em blue, 0 0 0.2em blue;
 }
 
 .mission-content p {
     font-size: 1.2rem;
     margin: 0 0 10px 0;
-    color: #ffffff;
+    color: #000000;
 }
 
 .learn-more-button {
     margin-top: 20px;
     padding: 10px 20px;
     background-color: #87b8bc;
-    color: white;
+    color: rgb(0, 0, 0);
     border: none;
     border-radius: 5px;
     cursor: pointer;
@@ -109,7 +112,7 @@
 
 .detail p {
     font-size: 1rem;
-    color: #ffffff;
+    color: #000000;
 }
 </style>
 

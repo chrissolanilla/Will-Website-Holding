@@ -7,7 +7,8 @@
 	import Team from "$lib/components/Team.svelte";
 	import Contact from "$lib/components/Contact.svelte";
 	import { onMount } from "svelte";
-
+	import Portfolio from "../lib/components/Portfolio.svelte";
+	
 	function scrollToContent() {
 		const contentElement = document.getElementById("Mission");
 		if (contentElement) {
@@ -85,6 +86,10 @@
 	<div id="Mission"><Mission /></div>
 </div>
 
+<div class="wrapper">
+	<div id="Portfolio"> <Portfolio /> </div>
+</div>
+
 <div class="wrapper about" id="test">
 	<div id="About"><About /></div>
 </div>
@@ -114,15 +119,9 @@
 		padding: 0;
 		overflow-x: hidden;
 	}
-
-	.missionBG {
-		background: url('https://images.unsplash.com/photo-1607863680198-23d4b2565df0?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D') no-repeat center center;
-   	 	background-size: cover;
-		padding: 4rem;
-		height: 90vh;
-		background-position: center;
+	.missionBG{
+		background-color: #c5c5c5;
 	}
-
 	ul {
 		list-style-type: none;
 		padding: 0;
@@ -223,9 +222,9 @@
 		font-size: 8rem;
 		pointer-events: auto; /* Enable pointer events for h1 */
 		color: rgb(51, 51, 51);
-		text-shadow:  1px 1px 2px rgb(46, 1, 1),
+		text-shadow:  1px 1px 2px rgb(54, 245, 245),
 		0 0 1em rgb(228, 220, 220),
-		0 0 0.2em rgb(211, 218, 125);
+		0 0 0.2em rgb(63, 93, 230);
 		text-align: center; /*fixes mobile view */
 	}
 
