@@ -1,14 +1,13 @@
 <div class="AboutContainer">
     <div class="AboutText">
-        <h1>About</h1>
+        <h1>Our Mission</h1>
         
-        <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-            Proin eleifend sem eget felis bibendum maximus. Vestibulum ullamcorper eu quam vel 
-            lacinia. Nunc imperdiet fermentum urna. Cras vitae condimentum enim. 
-            Fusce urna est, cursus vehicula nisi sed, cursus rhoncus erat. Pellentesque sed suscipit ipsum, 
-            sit amet efficitur dolor. Donec dictum eu ante ut sollicitudin. Maecenas lobortis vitae erat quis pellentesque. 
-            Sed at augue quis est condimentum elementum in sed sem. Cras eu congue ligula. Nulla fermentum est id augue scelerisque, 
-            at scelerisque nisl tincidunt.
+        <p> 
+            Our mission is to cultivate generational wealth while fostering vibrant local communities, 
+            guided by our commitment to supporting churches and empowering single mothers. Through 
+            strategic investments and collaborative partnerships, we strive to build a sustainable 
+            legacy of prosperity and compassion, ensuring that future generations thrive economically 
+            and socially.
         </p>
         
     </div>
@@ -19,7 +18,7 @@
         </div>
     
         <div class="StarImage">
-            <img src="starLight.jpg" alt="Second pic on website">
+            <img src="DivineSavior.png" alt="Pic of Divine Savior Academy">
         </div>
     </div>
 
@@ -27,6 +26,7 @@
 
 <style>
     .AboutContainer{
+        color: white;
         display: flex;
         flex-direction: row;
         justify-content: center;
@@ -34,6 +34,7 @@
         width: 100rem;
         padding: 5rem;
         flex-wrap: calc(100vw/3);
+        gap: 5px;
     }
     .ImagesContainer {
         display: flex;
@@ -48,7 +49,6 @@
     }
 
     .AboutText {
-        color: black;
         font-size: 20px;
     }
 

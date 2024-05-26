@@ -12,13 +12,13 @@
     </div>
     
     <div class="CoreValuesImg">
-        <img src="coreValue.png" alt="We pride ourselves on the core values of Gooning, Edging, and Jelqing">
+        <img src="Beachside.jpg" alt="Condo near a beach">
     </div>
 </div>
 
 <style>
     .ValuesContainer{
-        background-color:rgb(135, 184, 188);
+        
         width: 100rem;
         display: flex;
         flex-direction: row-reverse;

@@ -81,14 +81,16 @@
 	<!--trying to add a button down arrow-->
 </div>
 
-<div class="bgImg2">
-	<img src="starBG.jpg" alt="background" />
-	<div class="wrapper">
-		<div id="Mission"><Mission /></div>
-	</div>
-</div>
+<!--
+    <div class="bgImg2">
+        <img src="starBG.jpg" alt="background" />
+        <div class="wrapper">
+            <div id="Mission"><Mission /></div>
+        </div>
+    </div>
+-->
 
-<div class="wrapper">
+<div class="wrapper about">
 	<div id="About"><About /></div>
 </div>
 
@@ -100,10 +102,10 @@
 	<div id="Target"><TargetMarkets /></div>
 </div>
 -->
-<div class="wrapperTeam">
+<div class="wrapper team">
 	<div id="Team"><Team /></div>
 </div>
-<div class="wrapper">
+<div class="wrapper contact">
 	<div id="Contact"><Contact /></div>
 </div>
 
@@ -231,14 +233,16 @@
 		width: 100%;
 		padding: 0 20px;
 	}
-    
-    .wrapperTeam{
+
+    .about{
         background: linear-gradient(to top, #102f58 0%, #5785a9 100%);
-        display: flex;
-		flex-direction: row;
-		justify-content: center;
-		width: 100%;
-		padding: 0 20px;
+    }
+    
+    .team{
+        background: linear-gradient(to top, #102f58 0%, #5785a9 100%);
+    }
+    .contact{
+        background:rgb(51, 51, 51);
     }
 
 	#Mission {
@@ -253,7 +257,7 @@
 	}
 
 	.core {
-		background-color: rgb(135, 184, 188);
+		background: linear-gradient(to bottom, #102f58 0%, #5785a9 100%);
 		width: auto;
 	}
 
