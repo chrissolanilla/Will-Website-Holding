@@ -81,16 +81,11 @@
 	<!--trying to add a button down arrow-->
 </div>
 
-<!--
-    <div class="bgImg2">
-        <img src="starBG.jpg" alt="background" />
-        <div class="wrapper">
-            <div id="Mission"><Mission /></div>
-        </div>
-    </div>
--->
+<div class="wrapper missionBG">
+	<div id="Mission"><Mission /></div>
+</div>
 
-<div class="wrapper about">
+<div class="wrapper about" id="test">
 	<div id="About"><About /></div>
 </div>
 
@@ -118,6 +113,14 @@
 		margin: 0;
 		padding: 0;
 		overflow-x: hidden;
+	}
+
+	.missionBG {
+		background: url('https://images.unsplash.com/photo-1607863680198-23d4b2565df0?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D') no-repeat center center;
+   	 	background-size: cover;
+		padding: 50px 20px;
+		height: 90vh;
+		background-position: center;
 	}
 
 	ul {
@@ -248,14 +251,6 @@
 	#Mission {
 		width: 100rem;
 	}
-
-	.bgImg2 img {
-		width: 100%;
-		height: 45rem;
-		position: absolute;
-		z-index: -1;
-	}
-
 	.core {
 		background: linear-gradient(to bottom, #102f58 0%, #5785a9 100%);
 		width: auto;
@@ -274,10 +269,6 @@
 		}
 		section{
 			overflow-x: hidden;
-		}
-		.bgImg2 img {
-			width: 100%;
-			height: 1650px;
 		}
 		.contentMain h1 {
 			font-size: 50px;
