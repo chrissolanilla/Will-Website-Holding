@@ -199,7 +199,7 @@
 	.StartContainer {
 		color: white;
 		width: 100vw;
-		height: 100vh;
+		height: 98vh;
 		position: relative;
 		overflow: hidden;
 	}
@@ -207,7 +207,7 @@
 	.contentMain {
 		display: flex;
 		flex-direction: column;
-		row-gap: 15rem;
+		row-gap: 14rem;
 		justify-content: center;
 		align-items: center;
 		position: relative;
