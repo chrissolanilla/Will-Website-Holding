@@ -100,7 +100,7 @@
 	<div id="Target"><TargetMarkets /></div>
 </div>
 -->
-<div class="wrapper">
+<div class="wrapperTeam">
 	<div id="Team"><Team /></div>
 </div>
 <div class="wrapper">
@@ -231,6 +231,15 @@
 		width: 100%;
 		padding: 0 20px;
 	}
+    
+    .wrapperTeam{
+        background: linear-gradient(to top, #102f58 0%, #5785a9 100%);
+        display: flex;
+		flex-direction: row;
+		justify-content: center;
+		width: 100%;
+		padding: 0 20px;
+    }
 
 	#Mission {
 		width: 100rem;

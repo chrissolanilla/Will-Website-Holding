@@ -100,7 +100,7 @@
 
 <style>
     .TeamContainer{
-        color: rgb(0,0,128);
+        color: white;
         width: 100rem;
         height: auto;
         display: flex;
@@ -108,6 +108,7 @@
         justify-content: center;
         align-items: center;
         gap: 4px;
+        padding: 1rem;
     }
     .TeamBios{
         width: 100rem;
@@ -119,6 +120,9 @@
         gap: 50px;
     }
     .Anthony{
+        background: linear-gradient(89.2deg, rgb(5, 120, 190) 3.3%, rgb(119, 217, 211) 97.8%);
+        border-radius: 1rem;
+        padding: 1rem;
         display: flex;
         flex-direction: row-reverse;
         justify-content: center;
@@ -142,7 +146,10 @@
         position: relative;
     }
     .AnthonyImg{
-        
+        border-radius: 1rem;
+    }
+    .AnthonyImg img{
+        border-radius: 1rem;
     }
     .David{
         display: flex;
@@ -150,9 +157,15 @@
         justify-content: center;
         align-items: center;
         gap: 4px;
+        background: linear-gradient(-225deg, #3D4E81 0%, #5753C9 48%, #6E7FF3 100%);
+        padding: 1rem;
+        border-radius: 1rem;
     }
     .DavidImg{
-
+        border-radius: 1rem;
+    }
+    .DavidImg img{
+        border-radius: 1rem;
     }
     .Steve{
         display: flex;
@@ -160,8 +173,15 @@
         justify-content: center;
         align-items: center;
         gap: 4px;
+        background: linear-gradient(to right, #243949 0%, #517fa4 100%);
+        padding: 1rem;  
+        border-radius: 1rem;
     }
     .SteveImg img{
         height: 500px;
+        border-radius: 1rem;
+    }
+    .SteveImg{
+        border-radius: 1rem;
     }
 </style>
