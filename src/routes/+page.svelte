@@ -69,11 +69,16 @@
 			</ul>
 		</div>
 	</section>
-	<Navbar />
+	<div class="Navbar">
+		<Navbar />
+	</div>
 	<div class="contentMain">
-		<h1>Legacy 5</h1>
+		
+		<h1>Investing in Tomorrow's Opportunities</h1>
+		<p>Legacy 5 empowers you to build a prosperous future through strategic private equity investments.</p>
+		<button class="rightHere">Right here!</button>
 		<button id="downArrowButton" on:click={scrollToContent} style="pointer-events: all; background: transparent; border: none;">
-			<svg width="192" height="96" version="1.1" viewBox="-2 -2 196 100" xmlns="http://www.w3.org/2000/svg">
+			<svg width="75" height="35" version="1.1" viewBox="-2 -2 196 100" xmlns="http://www.w3.org/2000/svg">
 				<path d="m12 12 84 72 84-72" fill="none" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="24" style="paint-order:stroke fill markers"></path>
 				<path d="m12 12 84 72 84-72" fill="none" stroke="grey" stroke-linecap="round" stroke-linejoin="round" stroke-width="15" style="paint-order:stroke fill markers"></path>
 			</svg>
@@ -127,7 +132,11 @@
 		padding: 0;
 		margin: 0;
 	}
-
+	.Navbar {
+		background-color: #c5c5c5;
+		z-index: 9999999;
+		position: relative;
+	}
 	.portfolioBG {
 		background: linear-gradient(to top, #204575 0%, #537895 100%);
 	}
@@ -139,19 +148,41 @@
 		height: 100%;
 		z-index: 0; /* Adjusted z-index */
 	}
+	.rightHere {
+		padding: 10px 20px;
+		background-color: #87b8bc;
+		color: rgb(0, 0, 0);
+		border: none;
+		border-radius: 5px;
+		cursor: pointer;
+		font-size: 1rem;
+		transition: background-color 0.3s ease;
+	}
+	.rightHere:hover{
+		 background-color: #5699a3;
+		 pointer-events: auto;
+		 z-index: 999999;
 
+	}
 	.carousel {
 		width: 100%;
 		height: 100%;
 		position: relative;
+		/* background-color: blue; */
 	}
 
+	.carousel::before {
+		/* background-color: blue; this also dosent work, the image is above it */
+	}
 	.slide {
 		position: absolute;
 		inset: 0;
 		opacity: 0;
 		transition: 200ms opacity ease-in-out;
 		transition-delay: 200ms;
+	}
+	.slide::before {
+		/* background-color: red; this also dosetn work  */
 	}
 
 	.slide > img {
@@ -161,13 +192,19 @@
 		object-position: center;
 		object-fit: cover;
 	}
+	.slide > img::before {
+		/* background-color: red; this also dosent work  */
+	}
 
+	#downArrowButton {
+		margin-top: 22rem;
+	}
 	.slide[data-active] {
 		opacity: 1;
 		transition-delay: 0;
-		z-index: 1;
+		z-index: 0;
+		/* background-color: red; this also dosent work  */
 	}
-
 	.carousel-button {
 		z-index: 10;
 		position: absolute;
@@ -207,29 +244,45 @@
 		height: 98vh;
 		position: relative;
 		overflow: hidden;
+		/* background-color: blue; this dosent show  */
 	}
 
 	.contentMain {
 		display: flex;
 		flex-direction: column;
-		row-gap: 14rem;
+		/* row-gap: 14rem; */
 		justify-content: center;
 		align-items: center;
 		position: relative;
 		z-index: 5; /* Adjusted z-index */
 		pointer-events: none; /* Disable pointer events */
-		margin-top: 9rem;
+		background-color: rgba(0,0,0,0.5); /*this works */
+		height: 98vh;
 	}
 
 	.contentMain h1 {
-		font-size: 8rem;
+		margin-bottom: 0;
+		font-size: 6rem;
 		pointer-events: auto; /* Enable pointer events for h1 */
-		color: rgb(51, 51, 51);
+		/* color: rgb(51, 51, 51); */
 		text-shadow:  1px 1px 2px rgb(54, 245, 245),
 		0 0 1em rgb(228, 220, 220),
 		0 0 0.2em rgb(63, 93, 230);
 		text-align: center; /*fixes mobile view */
 	}
+
+	.contentMain p {
+		font-size: 2rem;
+		text-align: center; /*fixes mobile view */
+		pointer-events: auto;
+	}
+	.contentMain button {
+		pointer-events: auto;
+	}
+	.contentMain svg {
+		bottom: 0%;
+	}
+	
 
 	.wrapper {
 		display: flex;
@@ -271,8 +324,10 @@
 		ul {
 			overflow-x: hidden;
 		}
-		section{
+		section::before{
 			overflow-x: hidden;
+			background-color: rgba(0,0,0,0.5);
+			z-index: 99999;
 		}
 		.contentMain h1 {
 			font-size: 50px;
