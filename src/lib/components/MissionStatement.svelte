@@ -54,8 +54,8 @@
 
 .mission-content h1 {
     font-size: 3rem;
-    color: #84b0d4;
-    text-shadow: 1px 1px 2px rgb(0, 0, 0), 0 0 1em blue, 0 0 0.2em blue;
+    color: #295e89;
+    /*text-shadow: 1px 1px 2px rgb(0, 0, 0), 0 0 1em blue, 0 0 0.2em blue;*/
 }
 
 .mission-content p {
@@ -99,7 +99,7 @@
 }
 
 .detail h3 {
-    color: #87b8bc;
+    color: black;
     display: flex;
     align-items: center;
     margin-bottom: 10px;

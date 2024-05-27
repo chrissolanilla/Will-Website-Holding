@@ -73,7 +73,6 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        width: 100rem;
         padding: 2rem;
         flex-wrap: calc(100vw/3);
         gap: 5px;
@@ -82,12 +81,12 @@
         width: 600px;
         margin: 0;
         font-size: 20px;
-
         display: block;
         position: relative;
     }
     .TitleContainer{
-        padding-left: 12.5rem;
+        margin-left: 20rem;
+        margin-bottom: -2rem;
     }
     .Row1{
         display: flex;

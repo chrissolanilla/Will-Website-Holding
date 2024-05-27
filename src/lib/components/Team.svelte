@@ -120,7 +120,7 @@
         gap: 50px;
     }
     .Anthony{
-        background: linear-gradient(89.2deg, rgb(5, 120, 190) 3.3%, rgb(119, 217, 211) 97.8%);
+        background: linear-gradient(89.2deg, rgb(119, 217, 211) 5.3%, rgb(5, 120, 190) 94.7%);
         border-radius: 1rem;
         padding: 1rem;
         display: flex;

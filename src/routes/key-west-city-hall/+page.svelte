@@ -9,40 +9,45 @@
 
 <div class="PageContainer">
     <div class="TitleContainer">
-        <h1>Cheeca Lodge & Spa</h1>
+        <h1>Key West City Hall</h1>
     </div>
 
     <div class="BodyContainer">
         <div class="Row1">
             <div class="Text">
                 <div>
-                    Location: Islamorada, Florida
+                    Location: Key West, Florida
                 </div>
                 <div>
-                    <p>Completion Date: November 2022</p>
+                    <p>Completion Date: December 2016</p>
                 </div>
-                <p>Description: As Islamorada embraces its transformation, Cheeca Lodge and Spa are ready to grow alongside it. 
-                    Acknowledging the surge in tourists flocking to the renowned “Sporting Fishing Capital of the World,” the 
-                    resort embarked on an expansion endeavor to meet the escalating demands of this increasingly popular 
-                    destination.
+                <p>
+                    Description: This project featured the conversion of Archer Elementary School into the new City Hall for Key 
+                    West, Florida. The building was designed as a completely new structure within the historic outer walls of 
+                    the 1920s building. The historic Auditorium now serves as the Commission Chamber for the City of Key West, 
+                    with the other areas serving as office spaces for the City's many departments.
                 </p>
                 <p>
-                    The expansion project involved the construction of a new wing, consisting of 43 contemporary rooms and suites, 
-                    each offering awe-inspiring ocean views. Additionally, a cutting-edge conference center has been incorporated, 
-                    featuring two spacious ballrooms, a well-equipped kitchen, and inviting bars. This conference center is 
-                    designed to cater to a diverse range of events, including weddings, conferences, and more, Furthermore, as 
-                    part of the initiative, five affordable housing units have been added to the property.
+                    Many of the building's original elements were reused within the building, including seating from the historic 
+                    Auditorium, trusses from the original roof structure, and historic metal windows. In addition, all of the 
+                    heart pine wood from the original structure was reclaimed for use in the building or in other buildings in 
+                    town.
+                </p>
+                <p>
+                    This project is LEED Platinum and features solar array panels, rainwater cisterns, advanced communications 
+                    systems, security, and eco-friendly site amenities. The City Hall was also awarded USGBC's “Most Outstanding” 
+                    project in 2018.
                 </p>
             </div>
             <div class="Image">
-                <img src="https://bcginc.wpenginepowered.com/wp-content/uploads/2023/02/DJI_0353-HDR-scaled-600x400.jpg" alt="Cheeca Lodge and Spa">
+                <img src="https://bcginc.wpenginepowered.com/wp-content/uploads/2020/03/MAIN-KEY-WEST-CITY-HALL-PIC-600x400.png" alt="Key West City Hall">
             </div>
         </div>
 
         <div class="Row2">
-            <img class="img1" src="https://bcginc.wpenginepowered.com/wp-content/uploads/2023/03/DJI_0382-HDR-scaled-600x400.jpg" alt="Cheeca from behind">
+            <img class="img1" src="https://bcginc.wpenginepowered.com/wp-content/uploads/2020/04/KWCH_4-scaled-600x400.jpg" alt="Key West City Hall">
             
-            <img class="img2" src="https://bcginc.wpenginepowered.com/wp-content/uploads/2023/03/5D589518-D366-45EF-861D-A82BED00DC17-scaled-600x400.jpg" alt="Inside Cheeca">
+            <img class="img2" src="https://bcginc.wpenginepowered.com/wp-content/uploads/2020/04/KWCH_3-600x400.jpg" alt="Key West City Hall">
 
         </div>
         
@@ -74,7 +79,6 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        width: 100rem;
         padding: 2rem;
         flex-wrap: calc(100vw/3);
         gap: 5px;
@@ -83,12 +87,12 @@
         width: 600px;
         margin: 0;
         font-size: 20px;
-
         display: block;
         position: relative;
     }
     .TitleContainer{
-        padding-left: 12.5rem;
+        margin-left: 20rem;
+        margin-bottom: -2rem;
     }
     .Row1{
         display: flex;
