@@ -15,7 +15,7 @@
 	];
 </script>
 
-<h1>Look at our projects!</h1>
+<h1>Our Projects</h1>
 <div class="portfolioContainer">
 	
 	<div class="my-slider">
@@ -23,7 +23,7 @@
 			<div class="embla__container">
 					<div class="embla__slide">
 						<div class="propertyContainer">
-							<a href="https://bcginc.net/cheeca-lodge-spa/">
+							<a href="/cheeca-lodge">
 								<img src={items[0]} alt="property" />
 								<p class="description">Cheeca Lodge & Spa</p>
 
