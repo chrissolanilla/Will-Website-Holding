@@ -58,5 +58,6 @@
 
 	i {
 		padding:0.4rem;
+        color: white;
 	}
 </style>
