@@ -30,14 +30,14 @@
 							</a>
 						</div>
 						<div class="propertyContainer">
-							<a href="https://bcginc.net/ocean-isles-fishing-village/">
+							<a href="/ocean-isles">
 								<img src={items[1]} alt="property"/>
 								<p class="description">Ocean Isles Fishing Vilalge</p>
 
 							</a>
 						</div>
 						<div class="propertyContainer">
-							<a href="https://bcginc.net/bahamassolarproject/">
+							<a href="/bahamas-solar">
 								<img src={items[2]} alt="property"/>
 								<p class="description">Bahamas Solar Project</p>
 
