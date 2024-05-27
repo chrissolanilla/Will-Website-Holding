@@ -9,40 +9,39 @@
 
 <div class="PageContainer">
     <div class="TitleContainer">
-        <h1>Cheeca Lodge & Spa</h1>
+        <h1>Ocean Isles Fishing Village</h1>
     </div>
 
     <div class="BodyContainer">
         <div class="Row1">
             <div class="Text">
                 <div>
-                    Location: Islamorada, Florida
+                    Location: Marathon, Florida
                 </div>
                 <div>
                     <p>Completion Date: November 2022</p>
                 </div>
-                <p>Description: As Islamorada embraces its transformation, Cheeca Lodge and Spa are ready to grow alongside it. 
-                    Acknowledging the surge in tourists flocking to the renowned “Sporting Fishing Capital of the World,” the 
-                    resort embarked on an expansion endeavor to meet the escalating demands of this increasingly popular 
-                    destination.
+                <p>
+                    Description: Ocean Isles Fishing Village is an oceanfront complex in the 
+                    heart of the Florida Keys. This 108,000-square-foot property was rebuilt 
+                    with 126 concrete block units.
                 </p>
                 <p>
-                    The expansion project involved the construction of a new wing, consisting of 43 contemporary rooms and suites, 
-                    each offering awe-inspiring ocean views. Additionally, a cutting-edge conference center has been incorporated, 
-                    featuring two spacious ballrooms, a well-equipped kitchen, and inviting bars. This conference center is 
-                    designed to cater to a diverse range of events, including weddings, conferences, and more, Furthermore, as 
-                    part of the initiative, five affordable housing units have been added to the property.
+                    With extensive site work, this complex now features a brand new community 
+                    center, an elevated pool overlooking the Atlantic Ocean, and a rebuilt 
+                    marina. Units are two stories of modern living space totaling about 800 
+                    s.f. with a full-sized kitchen, living room, bath, and bedroom.
                 </p>
             </div>
             <div class="Image">
-                <img src="https://bcginc.wpenginepowered.com/wp-content/uploads/2023/02/DJI_0353-HDR-scaled-600x400.jpg" alt="Cheeca Lodge and Spa">
+                <img src="https://bcginc.wpenginepowered.com/wp-content/uploads/2023/02/DJI_0437-scaled-600x400.jpg" alt="Ocean Isles">
             </div>
         </div>
 
         <div class="Row2">
-            <img class="img1" src="https://bcginc.wpenginepowered.com/wp-content/uploads/2023/03/DJI_0382-HDR-scaled-600x400.jpg" alt="Cheeca from behind">
+            <img class="img1" src="https://bcginc.wpenginepowered.com/wp-content/uploads/2023/03/DJI_0433-scaled-600x400.jpg" alt="Pier">
             
-            <img class="img2" src="https://bcginc.wpenginepowered.com/wp-content/uploads/2023/03/5D589518-D366-45EF-861D-A82BED00DC17-scaled-600x400.jpg" alt="Inside Cheeca">
+            <img class="img2" src="https://bcginc.wpenginepowered.com/wp-content/uploads/2023/03/DJI_0440-scaled-600x400.jpg" alt="Above Ocean Isles">
 
         </div>
         
