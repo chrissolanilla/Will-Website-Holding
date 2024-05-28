@@ -331,14 +331,43 @@
 		}
 		.contentMain h1 {
 			font-size: 50px;
+			padding: 20px;
+			/* background-color: rgba(0,0,0,0.7); */
 		}
-
+		.contentMain {
+			height: auto;
+			padding: 20px;
+			/* background-color: rgba(0,0,0,0.7); */
+		}
 		.carousel-button.prev {
-		left: 0.1rem;
+			left: 0.1rem;
+			font-size: 2rem;
 		}
 
 		.carousel-button.next {
 			right: 0.1rem;
+			font-size: 2rem;
+		}
+		.contentMain p {
+        font-size: 1rem; /* Reduced font size for mobile */
+        margin-bottom: 20px;
+        text-align: center;
+		}
+
+		.learn-more-button {
+			margin-top: 10px;
+			padding: 8px 16px;
+			font-size: 0.875rem; /* Reduced font size for mobile */
+		}
+
+		.rightHere {
+			margin-top: 10px;
+			padding: 8px 16px;
+			font-size: 0.875rem; /* Reduced font size for mobile */
+		}
+
+		#downArrowButton {
+			margin-top:10rem;
 		}
 	}
 </style>
