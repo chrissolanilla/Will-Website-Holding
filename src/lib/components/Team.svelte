@@ -165,13 +165,7 @@
 		margin-top: 0;
 	}
 
-	.AnthonyImg,
-	.DavidImg,
-	.SteveImg {
-		border-radius: 1rem;
-		flex: 0 0 150px;
-		max-width: 150px;
-	}
+	
 
 	.AnthonyImg img,
 	.DavidImg img,
@@ -205,6 +199,7 @@
 			max-width: 100%;
 			margin-bottom: 1rem;
 		}
+
 		
 		.Bio p,
 		.BioReverse p {
