@@ -26,14 +26,14 @@
                 </p>
             </div>
             <div class="Image">
-                <img src="https://bcginc.wpenginepowered.com/wp-content/uploads/2023/07/1686917416581.jpeg" alt="Cheeca Lodge and Spa">
+                <img src="https://bcginc.wpenginepowered.com/wp-content/uploads/2023/07/1686917416581.jpeg" alt="Solar panels">
             </div>
         </div>
 
         <div class="Row2">
-            <img class="img1" src="https://bcginc.wpenginepowered.com/wp-content/uploads/2023/03/DJI_0382-HDR-scaled-600x400.jpg" alt="Cheeca from behind">
+            <img class="img1" src="https://bcginc.wpenginepowered.com/wp-content/uploads/2023/07/1686917414197.jpeg" alt="Solar Panels">
             
-            <img class="img2" src="https://bcginc.wpenginepowered.com/wp-content/uploads/2023/03/5D589518-D366-45EF-861D-A82BED00DC17-scaled-600x400.jpg" alt="Inside Cheeca">
+            <img class="img2" src="https://bcginc.wpenginepowered.com/wp-content/uploads/2023/07/1686917414151.jpeg" alt="Solar Panels">
 
         </div>
         
@@ -65,7 +65,6 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        width: 100rem;
         padding: 2rem;
         flex-wrap: calc(100vw/3);
         gap: 5px;
@@ -74,12 +73,12 @@
         width: 600px;
         margin: 0;
         font-size: 20px;
-
         display: block;
         position: relative;
     }
     .TitleContainer{
-        padding-left: 12.5rem;
+        margin-left: 20rem;
+        margin-bottom: -2rem;
     }
     .Row1{
         display: flex;
@@ -101,7 +100,7 @@
         flex-wrap: calc(100vw/3);
         gap: 50px;
     }
-    .Image img{
+    img{
         height: 400px;
         width: 600px;
     }

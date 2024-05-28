@@ -293,7 +293,7 @@
 	}
 
 	.about{
-		background: linear-gradient(to top, #dadde0 0%, #5785a9 100%);
+		background: #c5c5c5;
 		color: black;
 	}
 	

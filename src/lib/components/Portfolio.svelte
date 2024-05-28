@@ -46,21 +46,21 @@
 					</div>
 					<div class="embla__slide">
 						<div class="propertyContainer">
-							<a href="https://bcginc.net/thepalaceatweston/">
+							<a href="/the-palace">
 								<img src={items[3]} alt="property"/>
 								<p class="description">The Palace at Weston</p>
 
 							</a>
 						</div>
 						<div class="propertyContainer">
-							<a href="https://bcginc.net/keywestcityhall/">
+							<a href="/key-west-city-hall">
 								<img src={items[4]} alt="property"/>
 								<p class="description">Key West City Hall</p>
 
 							</a>
 						</div>
 						<div class="propertyContainer">
-							<a href="https://bcginc.net/woodlandpetlodge/">
+							<a href="/woodland-pet-lodge">
 								<img src={items[5]} alt="property"/>
 								<p class="description">Woodland Pet Lodge</p>
 
@@ -115,7 +115,7 @@
 		display: flex;
 		column-gap: 1rem;
 		background-color: rgb(61, 180, 228);
-		
+		border-radius: 1rem;
 		padding: 1rem;
 		width: 100rem;
 		overflow: hidden;

@@ -15,7 +15,7 @@
             </div>
             <div class="Email">
                 <b>Email:</b>
-                <a href="mailto:info@bcginc.net">info@bcginc.net</a>
+                <a href="mailto:info@bcginc.net" style="color:wheat">info@bcginc.net</a>
             </div>
         </div>
     </div>
