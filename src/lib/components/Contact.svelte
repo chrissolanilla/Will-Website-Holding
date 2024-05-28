@@ -23,7 +23,7 @@
 		<a href="https://www.linkedin.com/company/burkeconstructiongroup">
 			<i class="fa fa-linkedin" aria-hidden="true"></i>
 		</a>
-		<a href="https://www.linkedin.com/company/burkeconstructiongroup"> 
+		<a href="https://www.instagram.com/burkeconstructiongroup"> 
 			<i class="fa fa-instagram" aria-hidden="true"></i>
 		</a>
 		<a href="https://www.facebook.com/BurkeConstructionGroupInc/">
@@ -35,29 +35,67 @@
 	</div>
 </div>
 
+
 <style>
-    .ContactContainer{
-        width: 100rem;
+    .ContactContainer {
+        width: 100%;
+        max-width: 100rem;
         height: auto;
         display: flex;
         flex-direction: row;
         justify-content: center;
         align-items: center;
-        column-gap: 50rem;
-        padding: 0.5rem 0 2rem 0;
+        column-gap: 5rem;
+        padding: 2rem 1rem;
+        background: linear-gradient(to bottom, #333333 0%, #414242 100%);
+        color: white;
     }
-    .ContactBody{
+
+    .ContactTitle h1 {
+        margin-bottom: 1rem;
+    }
+
+    .ContactBody {
+        display: flex;
+        flex-direction: column;
         gap: 5px;
     }
-    .icons {    
-		display:flex;
-		flex-direction: row;
-		justify-content: center;
-		align-items: center;
-	}
 
-	i {
-		padding:0.4rem;
+    .icons {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+    }
+
+    i {
+        padding: 0.4rem;
         color: white;
-	}
+        font-size: 1.5rem;
+    }
+
+    /* Mobile Styles */
+    @media (max-width: 900px) {
+        .ContactContainer {
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            padding: 1rem;
+        }
+
+        .ContactBody {
+            align-items: center;
+        }
+
+        .icons {
+            gap: 0.5rem;
+            margin-top: 1rem;
+        }
+
+        i {
+            font-size: 2rem;
+        }
+    }
+
 </style>
