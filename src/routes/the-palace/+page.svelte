@@ -109,4 +109,63 @@
         width: 600px;
     }
 
+    @media (max-width:900px){
+        :global(html){
+			overflow-x: hidden;
+		}
+		:global(body){
+			max-width: 100%;
+			overflow-x: hidden;
+		}
+        .BodyContainer{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 2rem;
+            flex-wrap: calc(100vw/3);
+            gap: 5px;
+        }
+        .PageContainer{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 2rem;
+            flex-wrap: calc(100vw/3);
+            gap: 5px;
+        }
+        .TitleContainer{
+            margin-left: 0;
+            margin-bottom: -2rem;   
+        }
+        .Row1{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 100rem;
+            padding: 1rem;
+            flex-wrap: calc(100vw/3);
+            gap: 50px;
+        }
+        .Row2{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 100rem;
+            padding: 1rem;
+            flex-wrap: calc(100vw/3);
+            gap: 50px;
+        }
+        .Text{  
+            width: 300px;
+            margin: 0;
+            font-size: 20px;
+            display: block;
+            position: relative;
+        }
+    }
+
 </style>

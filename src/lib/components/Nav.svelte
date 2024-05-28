@@ -24,9 +24,9 @@
 	<nav>
 		<ul>
 			<li><a href="#mission" on:click|preventDefault={() => scrollToContent("Mission")}>Mission</a></li>
+			<li><a href="#portfolio" on:click|preventDefault={() => scrollToContent("Portfolio")}>Portfolio</a></li>
 			<li><a href="#about" on:click|preventDefault={() => scrollToContent("About")}>About</a></li>
 			<li><a href="#values" on:click|preventDefault={() => scrollToContent("Values")}>Core Values</a></li>
-			<li><a href="#target" on:click|preventDefault={() => scrollToContent("Target")}>Target Markets</a></li>
 			<li><a href="#team" on:click|preventDefault={() => scrollToContent("Team")}>Team</a></li>
 			<li><a href="#Contact" on:click|preventDefault={() => scrollToContent("Contact")}>Contact</a></li>
 		</ul>
