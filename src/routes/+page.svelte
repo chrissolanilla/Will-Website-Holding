@@ -306,7 +306,7 @@
 	}
 
 	#Mission {
-		width: 100rem;
+		max-width: 100rem;
 	}
 	.core {
 		background: linear-gradient(to bottom, #8c8f94 0%, #262727 100%);

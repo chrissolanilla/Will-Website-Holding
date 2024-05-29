@@ -19,7 +19,7 @@
 <style>
     .ValuesContainer{
         
-        width: 100rem;
+        max-width: 100rem;
         display: flex;
         flex-direction: row-reverse;
         justify-content: center;
@@ -31,7 +31,7 @@
     }
     
     .CoreValuesImg, .ValuesText {
-        flex: 1; /* Makes both divs take equal space */
+        flex: 1;         /* width: 600px; */
     }
 
     .ValuesText {
