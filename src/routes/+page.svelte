@@ -125,7 +125,7 @@
 		overflow-x: hidden;
 	}
 	.missionBG{
-		background-color: #c5c5c5;
+		background-color:#ffffff ;
 	}
 	ul {
 		list-style-type: none;
@@ -133,12 +133,12 @@
 		margin: 0;
 	}
 	.Navbar {
-		background-color: #c5c5c5;
+		background-color: #ffffff ;
 		z-index: 9999999;
 		position: relative;
 	}
 	.portfolioBG {
-		background: linear-gradient(to top, #204575 0%, #537895 100%);
+        background-color:#6da3bb 
 	}
 	.carousel-section {
 		position: absolute;
@@ -293,7 +293,7 @@
 	}
 
 	.about{
-		background: #c5c5c5;
+		background:#c4d1d7 ;
 		color: black;
 	}
 	
@@ -301,7 +301,7 @@
 		background: linear-gradient(to top, #102f58 0%, #5785a9 100%);
 	}
 	.contact{
-		background: linear-gradient(to bottom, #333333 0%, #414242 100%);
+        background-color: black;
 		color: white;
 	}
 
@@ -309,8 +309,8 @@
 		max-width: 100rem;
 	}
 	.core {
-		background: linear-gradient(to bottom, #8c8f94 0%, #262727 100%);
 		width: auto;
+        background-color: #ffffff; 
 	}
 
 	@media (max-width: 900px) {

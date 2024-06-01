@@ -47,8 +47,8 @@
         align-items: center;
         column-gap: 5rem;
         padding: 2rem 1rem;
-        background: linear-gradient(to bottom, #333333 0%, #414242 100%);
         color: white;
+        background-color: black;
     }
 
     .ContactTitle h1 {

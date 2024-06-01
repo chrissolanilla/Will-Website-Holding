@@ -35,7 +35,7 @@
     }
 
     .ValuesText {
-        color: white;
+        color: black;
         font-size: 20px;
         padding-left: 20px; /* Adjusted padding */
     }

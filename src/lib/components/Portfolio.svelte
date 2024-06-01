@@ -96,6 +96,7 @@
 		background-color: rgb(61, 180, 228);
 		border-radius: 1rem;
 		padding: 1rem;
+        margin-right: 1.8rem;
 		width: 100%;
 		overflow: hidden;
 		position: relative;
