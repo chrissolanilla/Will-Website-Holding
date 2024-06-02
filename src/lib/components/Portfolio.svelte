@@ -93,7 +93,7 @@
 
 	.my-slider {
 		display: flex;
-		background-color: rgb(61, 180, 228);
+		background-color: rgb(169, 220, 240);
 		border-radius: 1rem;
 		padding: 1rem;
         margin-right: 1.8rem;
@@ -107,11 +107,17 @@
 	img {
 		width: 100%;
 		max-width: 400px;
-		height: auto;
+		height: 266.67px;
 		margin: 0 1rem;
 		border-radius: 0.5rem;
 	}
 
+	a:link {
+		color: black;
+	}
+	a:visited {
+		color:black;
+	}
 	/* Mobile Styles */
 	@media (max-width: 900px) {
 		.embla__slide {
@@ -134,7 +140,7 @@
 
 		img {
 			width: 100%;
-			height: auto;
+			height: 266.67px;
 			margin: 0;
 		}
 	}

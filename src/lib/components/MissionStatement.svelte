@@ -10,11 +10,10 @@
 <div class="mission-container">
 	<img src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" width="550px" alt="Guys Looking at computers" class="mission-image">
 	<div class="missionContentContainer">
-		<div class="mission-content"> 
+		<div class="mission-content">
 			<h1>Investing with Integrity</h1>
 			<p>At Legacy 5, we focus on Value-Add and Core-Plus strategies to yield appropriate risk-adjusted returns.</p>
 			<p>Our goal is to enhance the value of Miami apartments through strategic investments and strong partnerships.</p>
-			<button class="learn-more-button">Learn More</button>
 		</div>
 		<div class="mission-details">
 			<div class="detail">
