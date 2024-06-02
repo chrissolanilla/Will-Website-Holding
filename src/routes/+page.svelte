@@ -337,10 +337,13 @@
 			/* background-color: rgba(0,0,0,0.7); */
 		}
 		.contentMain {
-			height: auto;
+			height: 85vh;
 			padding: 20px;
 			/* background-color: rgba(0,0,0,0.7); */
 		}
+        .contentMain p {
+            font-size:6rem;
+        }
 		.carousel-button.prev {
 			left: 0.1rem;
 			font-size: 2rem;
@@ -351,8 +354,7 @@
 			font-size: 2rem;
 		}
 		.contentMain p {
-        font-size: 1rem; /* Reduced font size for mobile */
-        margin-bottom: 20px;
+        font-size: 1.2rem; /* Reduced font size for mobile */
         text-align: center;
 		}
 
@@ -369,7 +371,7 @@
 		}
 
 		#downArrowButton {
-			margin-top:10rem;
+			margin-top:9.5rem;
 		}
 	}
 </style>
