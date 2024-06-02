@@ -32,11 +32,11 @@
 
         <div class="Row2">
             <img class="img1" src="https://bcginc.wpenginepowered.com/wp-content/uploads/2023/07/1686917414197.jpeg" alt="Solar Panels">
-            
+
             <img class="img2" src="https://bcginc.wpenginepowered.com/wp-content/uploads/2023/07/1686917414151.jpeg" alt="Solar Panels">
 
         </div>
-        
+
     </div>
 </div>
 
@@ -46,9 +46,7 @@
 
 
 <style>
-    .Navbar{
-        background-color: #c5c5c5;
-    }
+
     .wrapper {
 		display: flex;
 		flex-direction: row;
@@ -133,7 +131,7 @@
         }
         .TitleContainer{
             margin-left: 0;
-            margin-bottom: -2rem;   
+            margin-bottom: -2rem;
         }
         .Row1{
             display: flex;
@@ -155,7 +153,7 @@
             flex-wrap: calc(100vw/3);
             gap: 50px;
         }
-        .Text{  
+        .Text{
             width: 300px;
             margin: 0;
             font-size: 20px;

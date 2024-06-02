@@ -6,12 +6,12 @@
 	let options = { loop: false };
 	let plugins = [Autoplay()];
 	let items = [
-		{ src: "https://bcginc.wpenginepowered.com/wp-content/uploads/2023/02/DJI_0353-HDR-scaled-600x400.jpg", name: "Cheeca Lodge & Spa" },
-		{ src: "https://bcginc.wpenginepowered.com/wp-content/uploads/2023/02/DJI_0437-scaled-600x400.jpg", name: "Ocean Isles Fishing Village" },
-		{ src: "https://bcginc.wpenginepowered.com/wp-content/uploads/2015/08/Solar-Stock-Pic-for-Webpage-600x400.jpeg", name: "Bahamas Solar Project" },
-		{ src: "https://bcginc.wpenginepowered.com/wp-content/uploads/2015/07/The_Palace_1.jpg", name: "The Palace at Weston" },
-		{ src: "https://bcginc.wpenginepowered.com/wp-content/uploads/2015/07/KWCH_1.png", name: "Key West City Hall" },
-		{ src: "https://bcginc.wpenginepowered.com/wp-content/uploads/2020/03/Woodland_Lodge_Pet_Resort_Front_Low_Light-REDUCED-SIZWE-scaled-800x415.jpg", name: "Woodland Pet Lodge" }
+		{ src: "https://bcginc.wpenginepowered.com/wp-content/uploads/2023/02/DJI_0353-HDR-scaled-600x400.jpg", name: "Cheeca Lodge & Spa", link: "/cheeca-lodge" },
+		{ src: "https://bcginc.wpenginepowered.com/wp-content/uploads/2023/02/DJI_0437-scaled-600x400.jpg", name: "Ocean Isles Fishing Village", link: "/ocean-isles" },
+		{ src: "https://bcginc.wpenginepowered.com/wp-content/uploads/2015/08/Solar-Stock-Pic-for-Webpage-600x400.jpeg", name: "Bahamas Solar Project", link: "/bahamas-solar" },
+		{ src: "https://bcginc.wpenginepowered.com/wp-content/uploads/2015/07/The_Palace_1.jpg", name: "The Palace at Weston", link: "/the-palace" },
+		{ src: "https://bcginc.wpenginepowered.com/wp-content/uploads/2015/07/KWCH_1.png", name: "Key West City Hall", link: "/woodland-pet-lodge" },
+		{ src: "https://bcginc.wpenginepowered.com/wp-content/uploads/2020/03/Woodland_Lodge_Pet_Resort_Front_Low_Light-REDUCED-SIZWE-scaled-800x415.jpg", name: "Woodland Pet Lodge", link: "/woodland-pet-lodge" }
 	];
 
 	onMount(() => {
@@ -35,7 +35,7 @@
 				{#each items as item, index}
 					<div class="embla__slide">
 						<div class="propertyContainer">
-							<a href="/">
+							<a href={item.link}>
 								<img src={item.src} alt="property" />
 								<p class="description">{item.name}</p>
 							</a>

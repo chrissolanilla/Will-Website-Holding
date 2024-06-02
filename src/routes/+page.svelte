@@ -8,7 +8,7 @@
 	import Contact from "$lib/components/Contact.svelte";
 	import { onMount } from "svelte";
 	import Portfolio from "../lib/components/Portfolio.svelte";
-	
+
 	function scrollToContent() {
 		const contentElement = document.getElementById("Mission");
 		if (contentElement) {
@@ -73,10 +73,9 @@
 		<Navbar />
 	</div>
 	<div class="contentMain">
-		
+
 		<h1>Investing in Tomorrow's Opportunities</h1>
 		<p>Legacy 5 empowers you to build a prosperous future through strategic private equity investments.</p>
-		<button class="rightHere">Right here!</button>
 		<button id="downArrowButton" on:click={scrollToContent} style="pointer-events: all; background: transparent; border: none;">
 			<svg width="75" height="35" version="1.1" viewBox="-2 -2 196 100" xmlns="http://www.w3.org/2000/svg">
 				<path d="m12 12 84 72 84-72" fill="none" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="24" style="paint-order:stroke fill markers"></path>
@@ -95,9 +94,9 @@
 	<div id="Portfolio"> <Portfolio /> </div>
 </div>
 
-<div class="wrapper about" id="test">
+<!--<div class="wrapper about" id="test">
 	<div id="About"><About /></div>
-</div>
+</div> -->
 
 <div class="wrapper core">
 	<div id="Values"><CoreValues /></div>
@@ -109,6 +108,9 @@
 -->
 <div class="wrapper team">
 	<div id="Team"><Team /></div>
+</div>
+<div>
+
 </div>
 <div class="wrapper contact">
 	<div id="Contact"><Contact /></div>
@@ -138,7 +140,7 @@
 		position: relative;
 	}
 	.portfolioBG {
-        background-color:#6da3bb 
+        background-color:#6da3bb
 	}
 	.carousel-section {
 		position: absolute;
@@ -282,7 +284,7 @@
 	.contentMain svg {
 		bottom: 0%;
 	}
-	
+
 
 	.wrapper {
 		display: flex;
@@ -296,7 +298,7 @@
 		background:#c4d1d7 ;
 		color: black;
 	}
-	
+
 	.team{
 		background: linear-gradient(to top, #102f58 0%, #5785a9 100%);
 	}
@@ -310,7 +312,7 @@
 	}
 	.core {
 		width: auto;
-        background-color: #ffffff; 
+        background-color: #ffffff;
 	}
 
 	@media (max-width: 900px) {
