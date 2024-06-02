@@ -42,9 +42,10 @@
 
 	@media (max-width: 900px){
 		.AboutContainer {
-			width: 15rem;
+			width: 20rem;
 			flex-direction: column;
 			padding: 2px;
+            justify-content:center;
 		}
 		img {
 			height: 200px;
