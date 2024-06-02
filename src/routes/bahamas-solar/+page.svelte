@@ -55,7 +55,7 @@
 		padding: 0 20px;
 	}
     .contact{
-		background: linear-gradient(to bottom, #333333 0%, #414242 100%);
+		background: black;
 		color: white;
 	}
     .BodyContainer{

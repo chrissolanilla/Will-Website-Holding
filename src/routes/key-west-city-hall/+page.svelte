@@ -22,20 +22,20 @@
                     <p>Completion Date: December 2016</p>
                 </div>
                 <p>
-                    Description: This project featured the conversion of Archer Elementary School into the new City Hall for Key 
-                    West, Florida. The building was designed as a completely new structure within the historic outer walls of 
-                    the 1920s building. The historic Auditorium now serves as the Commission Chamber for the City of Key West, 
+                    Description: This project featured the conversion of Archer Elementary School into the new City Hall for Key
+                    West, Florida. The building was designed as a completely new structure within the historic outer walls of
+                    the 1920s building. The historic Auditorium now serves as the Commission Chamber for the City of Key West,
                     with the other areas serving as office spaces for the City's many departments.
                 </p>
                 <p>
-                    Many of the building's original elements were reused within the building, including seating from the historic 
-                    Auditorium, trusses from the original roof structure, and historic metal windows. In addition, all of the 
-                    heart pine wood from the original structure was reclaimed for use in the building or in other buildings in 
+                    Many of the building's original elements were reused within the building, including seating from the historic
+                    Auditorium, trusses from the original roof structure, and historic metal windows. In addition, all of the
+                    heart pine wood from the original structure was reclaimed for use in the building or in other buildings in
                     town.
                 </p>
                 <p>
-                    This project is LEED Platinum and features solar array panels, rainwater cisterns, advanced communications 
-                    systems, security, and eco-friendly site amenities. The City Hall was also awarded USGBC's “Most Outstanding” 
+                    This project is LEED Platinum and features solar array panels, rainwater cisterns, advanced communications
+                    systems, security, and eco-friendly site amenities. The City Hall was also awarded USGBC's “Most Outstanding”
                     project in 2018.
                 </p>
             </div>
@@ -46,11 +46,11 @@
 
         <div class="Row2">
             <img class="img1" src="https://bcginc.wpenginepowered.com/wp-content/uploads/2020/04/KWCH_4-scaled-600x400.jpg" alt="Key West City Hall">
-            
+
             <img class="img2" src="https://bcginc.wpenginepowered.com/wp-content/uploads/2020/04/KWCH_3-600x400.jpg" alt="Key West City Hall">
 
         </div>
-        
+
     </div>
 </div>
 
@@ -61,7 +61,7 @@
 
 <style>
     .Navbar{
-        background-color: #c5c5c5;
+        background-color: white;
     }
     .wrapper {
 		display: flex;
@@ -143,7 +143,7 @@
         }
         .TitleContainer{
             margin-left: 0;
-            margin-bottom: -2rem;   
+            margin-bottom: -2rem;
         }
         .Row1{
             display: flex;
@@ -165,7 +165,7 @@
             flex-wrap: calc(100vw/3);
             gap: 50px;
         }
-        .Text{  
+        .Text{
             width: 300px;
             margin: 0;
             font-size: 20px;

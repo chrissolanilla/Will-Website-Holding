@@ -22,12 +22,12 @@
                     <p>Completion Date: 2016</p>
                 </div>
                 <p>
-                    Description: Woodland Pet Resort, is Miami's premiere boarding facility for cats and dogs. 
+                    Description: Woodland Pet Resort, is Miami's premiere boarding facility for cats and dogs.
                     Offering resort-style boarding, doggy daycare, training, and grooming.
                 </p>
                 <p>
-                    This pet resort features 40 luxury pet condos with an interactive TV, cameras, and video 
-                    giving owners access to view their pets during their stay. This project also included a new 
+                    This pet resort features 40 luxury pet condos with an interactive TV, cameras, and video
+                    giving owners access to view their pets during their stay. This project also included a new
                     lobby, two kitchens, an outdoor pool, indoor daycare, and a social room for the pets.
                 </p>
             </div>
@@ -38,11 +38,11 @@
 
         <div class="Row2">
             <img class="img1" src="https://bcginc.wpenginepowered.com/wp-content/uploads/2020/04/Woodland_Lodge_Pet_Resort_Back-Reduced-Size-1.png" alt="Woodland Lodge Pet Resort">
-            
+
             <img class="img2" src="https://bcginc.wpenginepowered.com/wp-content/uploads/2020/04/Woodland_Lodge_Pet_Resort_Reception-Reduced-Size.png" alt="Woodland Lodge Pet Resort">
 
         </div>
-        
+
     </div>
 </div>
 
@@ -52,9 +52,16 @@
 
 
 <style>
+
+	:global(body) {
+		margin: 0;
+		padding: 0;
+		overflow-x: hidden;
+	}
     .Navbar{
-        background-color: #c5c5c5;
+        background-color: white;
     }
+
     .wrapper {
 		display: flex;
 		flex-direction: row;
@@ -63,7 +70,7 @@
 		padding: 0 20px;
 	}
     .contact{
-		background: linear-gradient(to bottom, #333333 0%, #414242 100%);
+		background: black;
 		color: white;
 	}
     .BodyContainer{
@@ -139,7 +146,7 @@
         }
         .TitleContainer{
             margin-left: 0;
-            margin-bottom: -2rem;   
+            margin-bottom: -2rem;
         }
         .Row1{
             display: flex;
@@ -161,7 +168,7 @@
             flex-wrap: calc(100vw/3);
             gap: 50px;
         }
-        .Text{  
+        .Text{
             width: 300px;
             margin: 0;
             font-size: 20px;

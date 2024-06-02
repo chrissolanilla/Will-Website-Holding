@@ -19,13 +19,13 @@
                     Location: Weston, Florida
                 </div>
                 <p>
-                    Description: The Palace at Weston is situated on 25 acres of residentially zoned land in Weston. 
-                    The Palace includes 350 condominium units. The units are two and three bedrooms, and each unit 
-                    has a covered terrace. The four buildings and 32 villas are surrounding a central lake. The 
-                    Mediterranean style buildings are situated in such a way that each building has breathtaking 
-                    views of the lake and they interconnected with meandering walking paths. The Palace includes a 
-                    man made lake with surrounding jogging paths as well as a pool, two spas, fitness center, aerobics 
-                    room, day spa/beauty salon, billiard room, card rooms, library, wellness center, bar/lounge, 
+                    Description: The Palace at Weston is situated on 25 acres of residentially zoned land in Weston.
+                    The Palace includes 350 condominium units. The units are two and three bedrooms, and each unit
+                    has a covered terrace. The four buildings and 32 villas are surrounding a central lake. The
+                    Mediterranean style buildings are situated in such a way that each building has breathtaking
+                    views of the lake and they interconnected with meandering walking paths. The Palace includes a
+                    man made lake with surrounding jogging paths as well as a pool, two spas, fitness center, aerobics
+                    room, day spa/beauty salon, billiard room, card rooms, library, wellness center, bar/lounge,
                     dining event rooms, and a coffee/ shop.
                 </p>
             </div>
@@ -36,11 +36,11 @@
 
         <div class="Row2">
             <img class="img1" src="https://bcginc.wpenginepowered.com/wp-content/uploads/2015/07/The_Palace_11.jpg" alt="Weston Palace">
-            
+
             <img class="img2" src="https://bcginc.wpenginepowered.com/wp-content/uploads/2015/07/The_Palace_3.jpg" alt="Weston Palace">
 
         </div>
-        
+
     </div>
 </div>
 
@@ -50,8 +50,14 @@
 
 
 <style>
+
+	:global(body) {
+		margin: 0;
+		padding: 0;
+		overflow-x: hidden;
+	}
     .Navbar{
-        background-color: #c5c5c5;
+        background-color: white;
     }
     .wrapper {
 		display: flex;
@@ -61,7 +67,7 @@
 		padding: 0 20px;
 	}
     .contact{
-		background: linear-gradient(to bottom, #333333 0%, #414242 100%);
+		background: black;
 		color: white;
 	}
     .BodyContainer{
@@ -137,7 +143,7 @@
         }
         .TitleContainer{
             margin-left: 0;
-            margin-bottom: -2rem;   
+            margin-bottom: -2rem;
         }
         .Row1{
             display: flex;
@@ -159,7 +165,7 @@
             flex-wrap: calc(100vw/3);
             gap: 50px;
         }
-        .Text{  
+        .Text{
             width: 300px;
             margin: 0;
             font-size: 20px;
