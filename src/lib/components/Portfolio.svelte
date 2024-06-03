@@ -62,8 +62,8 @@
                             <a href={item.link}>
                                 <img src={item.src} alt="property" />
                                 <button class="itembuttonname">
-                                    {item.name}</button
-                                >
+                                    {item.name}
+                                </button>
                                 <!-- <p class="description">{item.name}</p> -->
                             </a>
                         </div>
