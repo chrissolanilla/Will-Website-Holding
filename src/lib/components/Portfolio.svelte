@@ -153,6 +153,9 @@
         margin: 0 1rem;
         border-radius: 0.5rem;
     }
+    img:hover {
+        transform: scale(1.1);
+    }
 
     a:link {
         color: black;
