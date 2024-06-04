@@ -155,6 +155,7 @@
     }
     img:hover {
         transform: scale(1.1);
+        transition: 0.3s ease;
     }
 
     a:link {
