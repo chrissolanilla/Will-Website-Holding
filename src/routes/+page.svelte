@@ -4,7 +4,7 @@
     import Mission from "$lib/components/MissionStatement.svelte";
     import Team from "$lib/components/Team.svelte";
     import Contact from "$lib/components/Contact.svelte";
-    import { onMount } from "svelte";
+    import { onMount, tick } from "svelte";
     import Portfolio from "../lib/components/Portfolio.svelte";
 
     function scrollToContent() {
@@ -20,7 +20,13 @@
     //because its svelte we need the life cycle onMount thing
     let hiddenElements = [];
     let observer;
-    onMount(() => {
+    onMount(async () => {
+        if (window.innerWidth < 900) {
+            const missionElement = document.getElementById("Mission");
+            const portfolioElement = document.getElementById("Portfolio");
+            missionElement.classList.remove("hidden");
+            portfolioElement.classList.remove("hidden");
+        }
         if ("IntersectionObserver" in window) {
             observer = new IntersectionObserver((entries) => {
                 entries.forEach((entry) => {
@@ -31,10 +37,12 @@
                     }
                 });
             });
-
-            hiddenElements = document.querySelectorAll(".hidden");
-
-            hiddenElements.forEach((el) => observer.observe(el));
+            await tick(); //test if this fixes mobile
+            setTimeout(() => {
+                hiddenElements = document.querySelectorAll(".hidden");
+                hiddenElements.forEach((el) => observer.observe(el));
+                console.log("hidden elements", hiddenElements);
+            }, 100);
         }
         window.addEventListener("load", () => {
             const hiddenElements = document.querySelectorAll(".hidden");
@@ -189,6 +197,11 @@
         margin: 0;
         padding: 0;
         overflow-x: hidden;
+        font-family:
+            helvetica neue,
+            helvetica,
+            arial,
+            sans-serif;
     }
     :global(.hidden) {
         opacity: 0;
