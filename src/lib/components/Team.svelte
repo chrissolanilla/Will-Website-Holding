@@ -6,34 +6,26 @@
         <div class="Anthony statChild">
             <div class="Bio">
                 <h3>Anthony J. Burke</h3>
-                <h4><i>Chief Executive Officer</i></h4>
                 <p>
-                    Mr. Burke is one of the original founding partners of Burke
-                    Construction Group. He has served as the CEO since 1997. Mr.
-                    Burke's primary focus is on developing and maintaining
-                    client relations. He works closely on the preconstruction
-                    services, preparation of project estimates and oversees
-                    contract negotiations.
+                    Anthony J. Burke, the Chief Executive Officer and founding 
+                    partner of Burke Construction Group since 1997, brings over 
+                    three decades of construction industry experience to his 
+                    role. Beginning his career as a field engineer, Mr. Burke 
+                    later founded The Tower Group, which he led for twelve years 
+                    before its acquisition by an international firm, overseeing 
+                    substantial growth to over 250 employees and $185 million in 
+                    annual revenues. Prior to Tower, he served as President of 
+                    the Construction Division for a prominent Florida developer, 
+                    contributing to the construction of over 4.2 million square 
+                    feet of commercial space.
                 </p>
                 <p>
-                    Mr. Burke started his career in the construction industry as
-                    a field engineer over thirty years ago. Prior to founding
-                    Burke Construction, Mr. Burke was the founder of The Tower
-                    Group which he owned and managed for twelve years prior to
-                    selling the firm to an international company. Under Burke's
-                    leadership Tower grew to over 250 employees and 185 million
-                    in annual revenues. Prior to founding the Tower Group, Burke
-                    worked for ten years with a prominent local Florida
-                    developer serving as President of their Construction
-                    Division where he designed and constructed more than 4.2
-                    million square feet of commercial space. Mr. Burke graduated
-                    from Indiana State University with a B.S. in Construction
-                    Management in 1982. In addition to his leadership role with
-                    the entities stated above, he was appointed by Governor Jeb
-                    Bush to serve on the State of Florida's Construction
-                    Industry Licensing Board and presently serves as an advisor
-                    to his church board. Mr. Burke is a State Certified General
-                    Contractor.
+                    A graduate of Indiana State University with a B.S. in Construction 
+                    Management, Mr. Burke is also a State Certified General Contractor 
+                    and has served on the State of Florida's Construction Industry 
+                    Licensing Board, appointed by Governor Jeb Bush. He currently 
+                    provides advisory support to his church board alongside his 
+                    leadership responsibilities at Burke Construction Group.
                 </p>
             </div>
             <div class="AnthonyImg">
@@ -47,44 +39,23 @@
         <div class="David statChild">
             <div class="BioReverse">
                 <h3>David Martinez</h3>
-                <h4><i>Chief Financial Officer</i></h4>
                 <p>
-                    David W. Martinez began his career twenty-eight years ago as
-                    a staff accountant and local municipality's auditor. In
-                    1987, Mr. Martinez joined the CPA firm of Muskat, Simon &
-                    Kolber, one of South Florida's top 50 accounting firms.
-                    There, he worked his way up from staff accountant to senior
-                    staff manager and in 1992 he opened his own CPA firm. His
-                    experience includes tax, financial, audit and consulting
-                    services, with a heavy concentration in the construction
-                    industry. Mr. Martinez has also been highly recognized as an
-                    expert witness for numerous court cases dealing with
-                    multi-million dollar claims. His knowledge of management,
-                    accounting and financial matters enabled him to detect,
-                    calculate and report on several frauds and mismanagement
-                    claims.
+                    David W. Martinez is a seasoned financial professional 
+                    with over twenty-eight years of experience in accounting, 
+                    financial management, and the construction industry. 
+                    Beginning his career as a staff accountant and local 
+                    municipality auditor, he swiftly ascended to senior 
+                    management positions, culminating in the establishment 
+                    of his own CPA firm.
                 </p>
                 <p>
-                    In September 2000 Mr. Martinez became Chief Financial
-                    Officer and Partner of The Tower Group, Inc. He was
-                    responsible for overseeing the accounting staff, securing
-                    adequate bonding, insurance, and credit, as well as,
-                    controlling the overall financial stability of the
-                    corporation. He works closely on the preparation of all
-                    financial reports, project budgets, managing of assets and
-                    the implementation of the internal control and computer
-                    systems. In 2007, Mr. Martinez, along with Anthony Burke,
-                    launched Burke Construction Group, Inc. Together these two
-                    have completed over $1.7 billion of construction projects
-                    throughout the state of Florida in just the last 17 years.
-                    David is a Certified Public Accountant in the state of
-                    Florida and a member of several professional organizations,
-                    including the Florida Institute of Certified Public
-                    Accountants, the American Institute of Certified Public
-                    Accountants, the Construction Financial Management
-                    Association, the FIU Construction Industry Advisory Board,
-                    and the University of Miami Master of Construction
-                    Management Advisory Board.
+                    As Chief Financial Officer and Partner at The Tower Group, Inc., 
+                    and co-founder of Burke Construction Group, Inc., David has overseen 
+                    multimillion-dollar projects and demonstrated a keen understanding 
+                    of financial markets. With credentials including a Bachelor of 
+                    Accounting from Florida International University and certifications 
+                    as a Certified Public Accountant, he brings a wealth of expertise to 
+                    his role as a qualified investor in private equity.
                 </p>
             </div>
             <div class="DavidImg">
@@ -98,40 +69,28 @@
         <div class="Steve statChild">
             <div class="Bio">
                 <h3>Steve Alessi</h3>
-                <h4><i>Ethics and Values Advisor</i></h4>
                 <p>
-                    Pastor Steve Alessi is a renowned spiritual leader and
-                    entrepreneur, bringing over four decades of dedicated
-                    ministry and community service to Legacy 5. A Miami native,
-                    Steve was called into ministry at the age of 19 and has
-                    since fulfilled his calling with unwavering commitment.
-                    Steve earned his degree from Southeastern University in 1984
-                    and served alongside his parents as Associate Pastor of
-                    Grace Church of Kendall. In 1997, he and his wife, Mary,
-                    founded Metro Life Church in Doral, Florida, where they have
-                    since fostered a vibrant, faith-driven community. In 2013,
-                    they expanded their mission by transforming Grace Church
-                    into the Dadeland Campus of Metro Life Church, uniting the
-                    congregations under one roof.
+                    Pastor Steve Alessi, a native of Miami, has dedicated over 
+                    four decades to ministry, answering his calling with 
+                    unwavering devotion. Since graduating from Southeastern 
+                    University in 1984, he has served diligently, initially as 
+                    Associate Pastor of Grace Church of Kendall alongside his 
+                    parents. In 1997, he and his wife, Mary, founded Metro Life 
+                    Church in Doral, Florida, and later assumed leadership of 
+                    Grace Church, transforming it into the Dadeland Campus of 
+                    Metro Life Church.
                 </p>
                 <p>
-                    His life and ministry are testaments to resilience and
-                    faith, underscored by his survival of a widow-maker heart
-                    attack in 2007. This life-altering event inspired him to
-                    author "Forty Two - How To Finish Strong When You Thought
-                    You Were Finished," encapsulating his journey and mission to
-                    help others overcome their own challenges Steve is actively
-                    involved in community service, having served on the City of
-                    Doral’s Faith-Based Charities Advisory Committee, the
-                    Miami-Dade County Commissioners’ Interfaith Advisory Board,
-                    and as a Chaplain with the Doral Police Department. He is
-                    also a member of the Champion’s Network with Pastor Joel
-                    Osteen and enjoys the fellowship of his Pastor, Mike Hayes.
-                    In addition to his ministry, Steve cherishes spending time
-                    with his family, including his wife, four adult children,
-                    their spouses, and grandchildren. They host a weekly
-                    podcast, "The Family Business with The Alessis," sharing
-                    insights from their lives in ministry.
+                    Today, Pastor Steve leads Metro Life Church with his family, 
+                    overseeing its local and online campuses, while also 
+                    inspiring men through Goodfellas Camps and sharing his 
+                    powerful journey of resilience following a near-fatal heart 
+                    attack in 2007, which he chronicled in his book, "Forty Two - 
+                    How To Finish Strong When You Thought You Were Finished." 
+                    Beyond ministry, he actively engages with his community, 
+                    serving on advisory boards and as a chaplain. Pastor Steve 
+                    finds joy in hunting, boating, and traveling with loved ones, 
+                    epitomizing a life dedicated to faith, family, and service.
                 </p>
             </div>
             <div class="SteveImg">
