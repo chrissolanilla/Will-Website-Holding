@@ -3,7 +3,7 @@
         <h1>Team</h1>
     </div>
     <div class="TeamBios">
-        <div class="Anthony">
+        <div class="Anthony statChild">
             <div class="Bio">
                 <h3>Anthony J. Burke</h3>
                 <h4><i>Chief Executive Officer</i></h4>
@@ -44,7 +44,7 @@
             </div>
         </div>
 
-        <div class="David">
+        <div class="David statChild">
             <div class="BioReverse">
                 <h3>David Martinez</h3>
                 <h4><i>Chief Financial Officer</i></h4>
@@ -95,7 +95,7 @@
             </div>
         </div>
 
-        <div class="Steve">
+        <div class="Steve statChild">
             <div class="Bio">
                 <h3>Steve Alessi</h3>
                 <h4><i>Ethics and Values Advisor</i></h4>
@@ -257,4 +257,3 @@
         }
     }
 </style>
-

@@ -18,11 +18,33 @@
     }
     // code for the carousel
     //because its svelte we need the life cycle onMount thing
+    let hiddenElements = [];
+    let observer;
     onMount(() => {
+        if ("IntersectionObserver" in window) {
+            observer = new IntersectionObserver((entries) => {
+                entries.forEach((entry) => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add("show");
+                    } else {
+                        entry.target.classList.remove("show");
+                    }
+                });
+            });
+
+            hiddenElements = document.querySelectorAll(".hidden");
+
+            hiddenElements.forEach((el) => observer.observe(el));
+        }
+        window.addEventListener("load", () => {
+            const hiddenElements = document.querySelectorAll(".hidden");
+            hiddenElements.forEach((el) => observer.observe(el));
+        });
         //select all the elements in the DOM(document it think) with the data attribute
         const buttons = document.querySelectorAll("[data-carousel-button]");
         const slides = document.querySelector("[data-slides]");
-
+        //this is for the scroll animations
+        hiddenElements.forEach((el) => observer.observe(el));
         //function so we dont have to code our thing twice
         function changeSlide(offset) {
             const activeSlide = slides.querySelector("[data-active]");
@@ -50,6 +72,8 @@
 
         return () => clearInterval(interval); // Clean up intervals
     });
+
+    //code to have scroll animations
 </script>
 
 <!-- carousel testing -->
@@ -135,23 +159,23 @@
 </div>
 
 <div class="wrapper missionBG">
-    <div id="Mission"><Mission /></div>
+    <div id="Mission" class="hidden"><Mission /></div>
 </div>
 
 <div class="wrapper portfolioBG">
-    <div id="Portfolio"><Portfolio /></div>
+    <div id="Portfolio" class="hidden"><Portfolio /></div>
 </div>
 
 <div class="wrapper about" id="test">
-    <div id="About"><About /></div>
+    <div id="About" class="hidden"><About /></div>
 </div>
 
 <div class="wrapper team">
-    <div id="Team"><Team /></div>
+    <div id="Team" class="hidden"><Team /></div>
 </div>
 <div></div>
 <div class="wrapper contact">
-    <div id="Contact"><Contact /></div>
+    <div id="Contact" class="hidden"><Contact /></div>
 </div>
 
 <style>
@@ -166,8 +190,37 @@
         padding: 0;
         overflow-x: hidden;
     }
-    .missionBG {
-        background-color: #ffffff;
+    :global(.hidden) {
+        opacity: 0;
+        transition: all 0.5s;
+        filter: blur(5px);
+        transform: translateX(-100%);
+    }
+    :global(.show) {
+        opacity: 1;
+        filter: blur(0);
+        transform: translateX(0);
+    }
+    /* Staggered animations for each child */
+    :global(.statChild) {
+        opacity: 0; /* Start hidden */
+        transform: translateX(-100%);
+        transition:
+            opacity 0.5s,
+            transform 0.5s; /* Base transition */
+    }
+    :global(.show .statChild) {
+        opacity: 1;
+        transform: translateX(0);
+    }
+    :global(.show .statChild:nth-child(1)) {
+        transition-delay: 0.2s;
+    }
+    :global(.show .statChild:nth-child(2)) {
+        transition-delay: 0.4s;
+    }
+    :global(.show .statChild:nth-child(3)) {
+        transition-delay: 0.6s;
     }
     ul {
         list-style-type: none;
